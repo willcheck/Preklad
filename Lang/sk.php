@@ -10,502 +10,502 @@
 //                                Modified , added , fixed , implementd  by: Shadow and ronix       //
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 									//                         //
-									//         ENGLISH         //
-									//      Author: Dzoki      //
-									//     Adding: Armando     //
+									//         SLOVENČINA     //
+									//      Author: Vilk      //
+									//     Adding: Vilk      //
 									/////////////////////////////
 
 //MAIN MENU
-define("TRIBE1","Romans");
-define("TRIBE2","Teutons");
-define("TRIBE3","Gauls");
-define("TRIBE4","Nature");
-define("TRIBE5","Natars");
-define("TRIBE6","Monsters");
+define("TRIBE1","Šlachta");
+define("TRIBE2","Ľud");
+define("TRIBE3","Zbojníci");
+define("TRIBE4","Príroda");
+define("TRIBE5","Maďari");
+define("TRIBE6","Monštrá");
 
-define("HOME","Homepage");
-define("INSTRUCT","Instructions");
-define("ADMIN_PANEL","Admin Panel");
-define("MASS_MESSAGE","Mass Message");
-define("LOGOUT","Logout");
-define("PROFILE","Profile");
-define("SUPPORT","Support");
-define("UPDATE_T_10","Update Top 10");
-define("SYSTEM_MESSAGE","System message");
-define("TRAVIAN_PLUS","Travian <b><span class=\"plus_g\">P</span><span class=\"plus_o\">l</span><span class=\"plus_g\">u</span><span class=\"plus_o\">s</span></span></span></b>");
-define("CONTACT","Contact us!");
-define("GAME_RULES","Game Rules");
+define("HOME","Domovská stránka");
+define("INSTRUCT","Pokyny");
+define("ADMIN_PANEL","Admin panel");
+define("MASS_MESSAGE","Hromadná správa");
+define("LOGOUT","Odhlásiť");
+define("PROFIL","Profil");
+define("SUPPORT","Podpora");
+define("UPDATE_T_10","Aktualizovať 10 najlepších");
+define("SYSTEM_MESSAGE","Systémová správa");
+define("TRAVIAN_PLUS","Universe <b><span class=\"plus_g\">Plus</span></span></b>");
+define("CONTACT","Kontaktujte nás!");
+define("GAME_RULES","Pravidlá hry");
 
 //MENU
-define("REG","Register");
-define("FORUM","Forum");
+define("REG","Registrovať");
+define("FÓRUM","Fórum");
 define("CHAT","Chat");
-define("IMPRINT","Imprint");
-define("MORE_LINKS","More Links");
-define("TOUR","Game Tour");
+define("IMPRINT","Tlač");
+define("MORE_LINKS","Viac odkazov");
+define("TOUR","Prehliadka hry");
 
 
 //ERRORS
-define("USRNM_EMPTY","(Username empty)");
-define("USRNM_TAKEN","(Name is already in use.)");
-define("USRNM_SHORT","(min. ".USRNM_MIN_LENGTH." figures)");
-define("USRNM_CHAR","(Invalid Characters)");
-define("PW_EMPTY","(Password empty)");
-define("PW_SHORT","(min. ".PW_MIN_LENGTH." figures)");
-define("PW_INSECURE","(Password insecure. Please choose a more secure one.)");
-define("EMAIL_EMPTY","(Email Empty)");
-define("EMAIL_INVALID","(Invalid email address)");
-define("EMAIL_TAKEN","(Email is already in use)");
-define("TRIBE_EMPTY","<li>Please choose a tribe.</li>");
-define("AGREE_ERROR","<li>You have to agree to the game rules and the general terms & conditions in order to register.</li>");
-define("LOGIN_USR_EMPTY","Enter name.");
-define("LOGIN_PASS_EMPTY","Enter password.");
-define("EMAIL_ERROR","Email does not match existing");
-define("PASS_MISMATCH","Passwords do not match");
-define("ALLI_OWNER","Please appoint an alliance owner before deleting");
-define("SIT_ERROR","Sitter already set or player not found");
-define("USR_NT_FOUND","Name does not exist.");
-define("LOGIN_PW_ERROR","The password is wrong.");
-define("WEL_TOPIC","Useful tips & information ");
-define("ATAG_EMPTY","Tag empty");
-define("ANAME_EMPTY","Name empty");
-define("ATAG_EXIST","Tag taken");
-define("ANAME_EXIST","Name taken");
-define("ALREADY_ALLY_MEMBER","You're already in an alliance");
-define("ALLY_TOO_LOW", "You must have a level 3 or greater embassy");
-define("USER_NOT_IN_YOUR_ALLY","This user is not in your alliance!");
-define("CANT_EDIT_YOUR_PERMISSIONS","You can't edit your own permissions!");
-define("CANT_EDIT_LEADER_PERMISSIONS","Alliance leader's permissions can't be edited!");
-define("NO_PERMISSION", "You don't have enough permissions!");
-define("NAME_OR_DIPL_EMPTY", "Name or diplomacy empty");
-define("ALLY_DOESNT_EXISTS","Alliance does not exist");
-define("CANNOT_INVITE_SAME_ALLY","You cannot invite your own alliance");
-define("WRONG_DIPLOMACY","Wrong choice made");
-define("INVITE_ALREADY_SENT","Either you have already sent a pact to this alliance, they sent it to yours or you already have a pact with them");
-define("INVITE_SENT","Invite sent");
-define("DECLARED_WAR_ON","declared war to");
-define("OFFERED_NON_AGGRESION_PACT_TO","offered non-aggression pact to");
-define("OFFERED_CONFED_TO","offered a confederation to");
-define("ALLY_TOO_MUCH_PACTS","Either You cannot offer more pacts of this kind or this alliance has reached the limit for this kind of patcs");
-define("ALLY_PERMISSIONS_UPDATED","Permissions updated");
-define("ALLY_FORUM_LINK_UPDATED", "Forum link updated");
-define("NO_FORUMS_YET","There are no forums yet.");
-define("ALLY_USER_KICKED"," has been kicked from the alliance");
-define("NOT_OPENED_YET","Server not started yet.");
-define("REGISTER_CLOSED","The register is closed. You can't register to this server.");
-define("NAME_EMPTY","Please insert name");
-define("NAME_NO_EXIST","There is no user with the name ");
-define("ID_NO_EXIST","There is no user with the id ");
-define("SAME_NAME","You can't invite yourself");
-define("ALREADY_INVITED"," already invited");
-define("ALREADY_IN_ALLY"," is already in this alliance");
-define("ALREADY_IN_AN_ALLY"," is already in an alliance");
-define("NAME_OR_TAG_CHANGED","Name or Tag changed");
-define("VAC_MODE_WRONG_DAYS","You've inserted a wrong number of days");
+define("USRNM_EMPTY","(Používateľské meno je prázdne)");
+define("USRNM_TAKEN","(Názov sa už používa.)");
+define("USRNM_SHORT","(min. ".USRNM_MIN_LENGTH." čísla)");
+define("USRNM_CHAR","(Neplatné znaky)");
+define("PW_EMPTY","(Heslo je prázdne)");
+define("PW_SHORT","(min. ".PW_MIN_LENGTH." čísla)");
+define("PW_INSECURE","(Heslo je nezabezpečené. Vyberte si bezpečnejšie.)");
+define("EMAIL_EMPTY","(E-mail je prázdny)");
+define("EMAIL_INVALID","(Neplatná e-mailová adresa)");
+define("EMAIL_TAKEN","(E-mail sa už používa)");
+define("TRIBE_EMPTY","<li>Vyberte kmeň.</li>");
+define("AGREE_ERROR","<li>Pre registráciu musíte súhlasiť s pravidlami hry a všeobecnými podmienkami.</li>");
+define("LOGIN_USR_EMPTY","Zadajte meno.");
+define("LOGIN_PASS_EMPTY","Zadajte heslo.");
+define("EMAIL_ERROR","E-mail sa nezhoduje s existujúcim");
+define("PASS_MISMATCH","Heslá sa nezhodujú");
+define("ALLI_OWNER","Pred odstránením určte vlastníka aliancie");
+define("SIT_ERROR","Sitter je už nastavený alebo sa hráč nenašiel");
+define("USR_NT_FOUND","Názov neexistuje.");
+define("LOGIN_PW_ERROR","Heslo je nesprávne.");
+define("WEL_TOPIC","Užitočné tipy a informácie ");
+define("ATAG_EMPTY","Prázdna značka");
+define("ANAME_EMPTY","Name prázdne");
+define("ATAG_EXIST","Značka prijatá");
+define("ANAME_EXIST","Názov prijatý");
+define("ALREADY_ALLY_MEMBER","Už ste v aliancii");
+define("ALLY_TOO_LOW", "Musíte mať veľvyslanectvo úrovne 3 alebo vyššej");
+define("USER_NOT_IN_YOUR_ALLY","Tento používateľ nie je vo vašej aliancii!");
+define("CANT_EDIT_YOUR_PERMISSIONS","Nemôžete upravovať svoje vlastné povolenia!");
+define("CANT_EDIT_LEADER_PERMISSIONS","Povolenia vodcu Aliancie nie je možné upravovať!");
+define("NO_PERMISSION", "Nemáte dostatok povolení!");
+define("NAME_OR_DIPL_EMPTY", "Meno alebo diplomacia prázdne");
+define("ALLY_DOESNT_EXISTS","Aliancia neexistuje");
+define("CANNOT_INVITE_SAME_ALLY","Nemôžete pozvať svoju vlastnú alianciu");
+define("WRONG_DIPLOMACY","Zlý výber");
+define("INVITE_ALREADY_SENT","Buď ste už poslali pakt tejto aliancii, oni ju poslali tej vašej, alebo už s nimi máte pakt");
+define("INVITE_SENT","Pozvánka bola odoslaná");
+define("DECLARED_WAR_ON","vyhlásil vojnu");
+define("OFFERED_NON_AGGRESION_PACT_TO","ponúkol pakt o neútočení");
+define("OFFERED_CONFED_TO","ponúkol konfederáciu");
+define("ALLY_TOO_MUCH_PACTS","Buď nemôžete ponúknuť viac paktov tohto druhu, alebo táto aliancia dosiahla limit pre tento druh patcov");
+define("ALLY_PERMISSIONS_UPDATED","Povolenia aktualizované");
+define("ALLY_FORUM_LINK_UPDATED", "Odkaz na fórum bol aktualizovaný");
+define("NO_FORUMS_YET","Zatiaľ neexistujú žiadne fóra.");
+define("ALLY_USER_KICKED"," bol vylúčený z aliancie");
+define("NOT_OPENED_YET","Server sa ešte nespustil.");
+define("REGISTER_CLOSED","Registr je zatvorený. Na tento server sa nemôžete zaregistrovať.");
+define("NAME_EMPTY","Vložte meno");
+define("NAME_NO_EXIST","Neexistuje žiadny používateľ s menom ");
+define("ID_NO_EXIST","Neexistuje žiadny užívateľ s id ");
+define("SAME_NAME","Nemôžete sa pozvať");
+define("ALREADY_INVITED"," už pozvaný");
+define("ALREADY_IN_ALLY"," je už v tejto aliancii");
+define("ALREADY_IN_AN_ALLY"," je už v aliancii");
+define("NAME_OR_TAG_CHANGED","Názov alebo štítok zmenený");
+define("VAC_MODE_WRONG_DAYS","Vložili ste nesprávny počet dní");
 
 //COPYRIGHT
-define("TRAVIAN_COPYRIGHT","TravianZ 100% Open Source Travian Clone.");
+define("TRAVIAN_COPYRIGHT","Universe kopirajt");
 
 //BUILD.TPL
-define("CUR_PROD","Current production");
-define("NEXT_PROD","Production at level ");
-define("CONSTRUCT_BUILD","Construct Building");
+define("CUR_PROD","Aktuálna produkcia");
+define("NEXT_PROD","Výroba na úrovni ");
+define("CONSTRUCT_BUILD","Postaviť budovu");
 
 //BUILDINGS
-define("B1","Woodcutter");
-define("B1_DESC","The Woodcutter cuts down trees in order to produce lumber. The further you extend the woodcutter the more lumber is produced by him.");
-define("B2","Clay Pit");
-define("B2_DESC","Clay is produced here. By increasing its level you increase its clay production.");
-define("B3","Iron Mine");
-define("B3_DESC","Here miners produce the precious resource iron. By increasing the mine`s level you increase its iron production.");
-define("B4","Cropland");
-define("B4_DESC","Your population`s food is produced here. By increasing the farm`s level you increase its crop production.");
+define("B1","Drevorubač");
+define("B1_DESC","Drevorubač rúbe stromy, aby vyrobil rezivo. Čím ďalej drevorubač vytiahnete, tým viac reziva vyprodukuje.");
+define("B2","Hlinená jama");
+define("B2_DESC","Vyrába sa tu hlina. Zvýšením jeho úrovne zvýšite produkciu hliny.");
+define("B3","Železná baňa");
+define("B3_DESC","Baníci tu vyrábajú vzácne železo. Zvýšením úrovne bane zvýšite produkciu železa.");
+define("B4","Obilie");
+define("B4_DESC","Tu sa vyrába jedlo vašej populácie. Zvyšovaním úrovne farmy zvyšujete produkciu obilia.");
 
 //DORF1
-define("LUMBER","Lumber");
-define("CLAY","Clay");
-define("IRON","Iron");
-define("CROP","Crop");
+define("LUMBER","Drevo");
+define("CLAY","Hlina");
+define("IRON","Železo");
+define("CROP","Obilie");
 define("LEVEL","Level");
 define("CROP_COM",CROP." consumption");
-define("PER_HR","per hour");
-define("PROD_HEADER","Production");
-define("MULTI_V_HEADER","Villages");
-define("ANNOUNCEMENT","Announcement");
-define("GO2MY_VILLAGE","Go to my village");
-define("VILLAGE_CENTER","Village centre");
-define("FINISH_GOLD","Finish all construction and research orders in this village immediately for 2 Gold?");
-define("WAITING_LOOP","(waiting loop)");
-define("CROP_NEGATIVE","Your crop production is negative, you'll neaver reach the amount of requested resources.");
-define("HRS","(hrs.)");
-define("DONE_AT","done at");
-define("CANCEL","cancel");
-define("LOYALTY","Loyalty");
-define("CALCULATED_IN","Calculated in");
-define("SEVER_TIME","Server time:");
+define("PER_HR","za hodinu");
+define("PROD_HEADER","Výroba");
+define("MULTI_V_HEADER","Dediny");
+define("ANNOUNCEMENT","Oznámenie");
+define("GO2MY_VILLAGE","Choď do mojej dediny");
+define("VILLAGE_CENTER","Centrum dediny");
+define("FINISH_GOLD","Dokončiť okamžite všetky stavebné a výskumné zákazky v tejto dedine za 2 zlaté?");
+define("WAITING_LOOP","(čakacia slučka)");
+define("CROP_NEGATIVE","Vaša produkcia obilia je negatívna, nikdy nedosiahnete množstvo požadovaných zdrojov.");
+define("HRS","(hod.)");
+define("DONE_AT","hotovo za");
+define("CANCEL","zrušiť");
+define("LOYALTY","Vernosť");
+define("CALCULATED_IN","Vypočítané za");
+define("SEVER_TIME","Čas servera:");
 define("HI","HI");
-define("P_IN","in");
+define("P_IN","za");
 
 //QUEST
-define("Q_CONTINUE","Continue with the next task.");
-define("Q_REWARD","Your reward:");
-define("Q_BUTN","complete task");
-define("Q0","Welcome to ");
-define("Q0_DESC","As I see you have been made chieftain of this little village. I will be your counselor for the first few days and never leave your (right hand) side.");
-define("Q0_OPT1","To the first task.");
-define("Q0_OPT2","Look around on your own.");
-define("Q0_OPT3","Play no tasks.");
+define("Q_CONTINUE","Pokračovať ďalšou úlohou.");
+define("Q_REWARD","Vaša odmena:");
+define("Q_BUTN","dokončite úlohu");
+define("Q0","Vitajte v ");
+define("Q0_DESC","Vidím, že ste sa stali náčelníkom tejto malej dediny. Prvých pár dní budem vaším radcom a nikdy neopustím vašu (pravú) stranu.");
+define("Q0_OPT1","K prvej úlohe.");
+define("Q0_OPT2","Pozrite sa sami.");
+define("Q0_OPT3","Nehrajte žiadne úlohy.");
 
-define("Q1","Task 1: Woodcutter");
-define("Q1_DESC","There are four green forests around your village. Construct a woodcutter on one of them. Lumber is an important resource for our new settlement.");
-define("Q1_ORDER","Order:<\/p>Construct a woodcutter.");
-define("Q1_RESP","Yes, that way you gain more lumber.I helped a bit and completed the order instantly.");
-define("Q1_REWARD","Woodcutter instantly completed.");
+define("Q1","Úloha 1: Drevorubač");
+define("Q1_DESC","V okolí vašej dediny sú štyri zelené lesy. Na jednom z nich postavte drevorubača. Drevo je dôležitým zdrojom pre našu novú osadu.");
+define("Q1_ORDER","Objednávka:<\/p>Zostrojte drevorubača.");
+define("Q1_RESP","Áno, týmto spôsobom získate viac reziva. Trochu som pomohol a objednávku som okamžite dokončil.");
+define("Q1_REWARD","Drevorubač okamžite dokončený.");
 
-define("Q2","Task 2: Crop");
-define("Q2_DESC","Now your subjects are hungry from working all day. Extend a cropland to improve your subjects' supply. Come back here once the building is complete.");
-define("Q2_ORDER","Order:<\/p>Extend one cropland.");
-define("Q2_RESP","Very good. Now your subjects have enough to eat again...");
-define("Q2_REWARD","Your reward:<\/p>1 day Travian");
+define("Q2","Úloha 2: Orez");
+define("Q2_DESC","Teraz sú vaši poddaní hladní po celodennej práci. Rozšírte ornú pôdu, aby ste zlepšili zásobu poddaných. Vráťte sa sem, keď bude budova dokončená.");
+define("Q2_ORDER","Poradie:<\/p>Rozšírte jednu ornú pôdu.");
+define("Q2_RESP","Výborne. Teraz majú vaši poddaní opäť dosť jedla...");
+define("Q2_REWARD","Vaša odmena:<\/p>1 deň Universe");
 
-define("Q3","Task 3: Your Village's Name");
-define("Q3_DESC","Creative as you are you can grant your village the ultimate name.<br \/><br \/>Click on 'profile' in the left hand menu and then select 'change profile'...");
-define("Q3_ORDER","Order:<\/p>Change your village's name to something nice.");
-define("Q3_RESP","Wow, a great name for their village. It could have been the name of my village!...");
+define("Q3","Úloha 3: Názov vašej dediny");
+define("Q3_DESC","Kreatívny ako ste, môžete svojej dedine udeliť konečný názov.<br \/><br \/>Kliknite na 'profil' v ľavom menu a potom vyberte 'zmeniť profil'... ");
+define("Q3_ORDER","Objednávka:<\/p>Zmeňte názov svojej dediny na niečo pekné.");
+define("Q3_RESP","Wow, skvelé meno pre ich dedinu. Mohlo to byť meno mojej dediny!...");
 
-define("Q4","Task 4: Other Players");
-define("Q4_DESC","In ". SERVER_NAME ." you play along with billions of other players. Click 'statistics' in the top menu to look up your rank and enter it here.");
-define("Q4_ORDER","Order:<\/p>Look for your rank in the statistics and enter it here.");
-define("Q4_BUTN","complete task");
-define("Q4_RESP","Exactly! That's your rank.");
+define("Q4","Úloha 4: Iní hráči");
+define("Q4_DESC","V ". SERVER_NAME ." hráte spolu s miliardami ďalších hráčov. Kliknite na 'štatistiky' v hornom menu, aby ste si vyhľadali svoje hodnotenie a zadajte ho sem.");
+define("Q4_ORDER","Poradie:<\/p>Vyhľadajte svoju pozíciu v štatistike a zadajte ju sem.");
+define("Q4_BUTN","dokončite úlohu");
+define("Q4_RESP","Presne tak! To je vaša hodnosť.");
 
-define("Q5","Task 5: Two Building Orders");
-define("Q5_DESC","Build an iron mine and a clay pit. Of iron and clay one can never have enough.");
-define("Q5_ORDER","Order:<\/p><ul><li>Extend one iron mine.<\/li><li>Extend one clay pit.<\/li><\/ul>");
-define("Q5_RESP","As you noticed, building orders take rather long. The world of ". SERVER_NAME ." will continue to spin even if you are offline. Even in a few months there will be many new things for you to discover.<br \/><br \/>The best thing to do is occasionally checking your village and giving you subjects new tasks to do.");
+define("Q5","Úloha 5: 2 stavebné zákazky");
+define("Q5_DESC","Postav železnú baňu a hlinu. Železa a hliny nemá človek nikdy dosť.");
+define("Q5_ORDER","Poradie:<\/p><ul><li>Predĺžte jednu železnú baňu.<\/li><li>Predĺžte jednu hlinenú jamu.<\/li><\/ul>") ;
+define("Q5_RESP","Ako ste si všimli, stavebné zákazky trvajú dosť dlho. Svet ".SERVER_NAME." sa bude ďalej točiť, aj keď budete offline. Aj o pár mesiacov budete môcť objaviť veľa nových vecí .<br \/><br \/>Najlepšie je občas skontrolovať svoju dedinu a dať vám nové úlohy, ktoré musíte urobiť.");
 
-define("Q6","Task 6: Messages");
-define("Q6_DESC","You can talk to other players using the messaging system. I sent a message to you. Read it and come back here.<br \/><br \/>P.S. Don't forget: on the left the reports, on the right the messages.");
-define("Q6_ORDER","Order:<\/p>Read your new message.");
-define("Q6_RESP","You received it? Very good.<br \/><br \/>Here is some Gold. With Gold you can do several things, e.g. extend your   in the left hand menu.");
-define("Q6_RESP1","-Account or increase your resource production.To do so click ");
-define("Q6_RESP2","in the left hand menu.");
-define("Q6_SUBJECT","Message From The Taskmaster");
-define("Q6_MESSAGE","You are to be informed that a nice reward is waiting for you at the taskmaster.<br /><br />Hint: The message has been generated automatically. An answer is not necessary.");
+define("Q6","Úloha 6: Správy");
+define("Q6_DESC","Pomocou systému správ môžete hovoriť s ostatnými hráčmi. Poslal som ti správu. Prečítajte si to a vráťte sa sem.<br \/><br \/>P.S. Nezabudnite: vľavo hlásenia, vpravo správy.");
+define("Q6_ORDER","Objednávka:<\/p>Prečítajte si novú správu.");
+define("Q6_RESP","Dostali ste to? Veľmi dobre.<br \/><br \/>Tu je nejaké zlato. So zlatom môžete robiť niekoľko vecí, napr. rozšíriť svoje v ponuke na ľavej strane.");
+define("Q6_RESP1","-Zúčtujte alebo zvýšte produkciu zdrojov. Ak to chcete urobiť, kliknite na ");
+define("Q6_RESP2","v ľavom menu.");
+define("Q6_SUBJECT","Správa od správcu úloh");
+define("Q6_MESSAGE","Máte byť informovaní, že u správcu úloh na vás čaká pekná odmena.<br /><br />Tip: Správa bola vygenerovaná automaticky. Odpoveď nie je potrebná.");
 
-define("Q7","Task 7: One Each!");
-define("Q7_DESC","Now we should increase your resource production a bit. Build an additional woodcutter, clay pit, iron mine and cropland to level 1.");
-define("Q7_ORDER","Order:<\/p>Extend one more of each resource tile to level 1.");
-define("Q7_RESP","Very good, great develop of resources production.");
+define("Q7","Úloha 7: Každý jeden!");
+define("Q7_DESC","Teraz by sme mali trochu zvýšiť vašu produkciu surovín. Postavte ďalšieho drevorubača, hlinenú jamu, železnú baňu a ornú pôdu na úroveň 1.");
+define("Q7_ORDER","Poradie:<\/p>Rozšírte ešte jednu z každej dlaždice zdroja na úroveň 1.");
+define("Q7_RESP","Veľmi dobre, veľký rozvoj produkcie zdrojov.");
 
-define("Q8","Task 8: Huge Army!");
-define("Q8_DESC","Now I've got a very special quest for you. I am hungry. Give me 200 crop!<br \/><br \/>In return I will try to organize a huge army to protect your village.");
-define("Q8_ORDER","Order:<\/p>Send 200 crop to the taskmaster.");
-define("Q8_BUTN","Send crop");
+define("Q8","Úloha 8: Obrovská armáda!");
+define("Q8_DESC","Teraz mám pre vás veľmi špeciálnu úlohu. Som hladný. Dajte mi 200 úrody!<br \/><br \/>Na oplátku sa pokúsim zorganizovať obrovskú armádu na ochranu vaša dedina.");
+define("Q8_ORDER","Objednávka:<\/p>Pošlite 200 orezov správcovi úloh.");
+define("Q8_BUTN","Odoslať orezanie");
 define("Q8_NOCROP","No Enough Crop!");
 
-define("Q9","Task 9: Everything to 1.");
-define("Q9_DESC","In Travian there is always something to do! While you are waiting for incoming the huge army, Now we should increase your resource production a bit. Extend all your resource tiles to level 1.");
-define("Q9_ORDER","Order:<\/p>Extend all resource tiles to level 1.");
-define("Q9_RESP","Very good, your resource production just thrives.<br \/><br \/>Soon we can start with constructing buildings in the village.");
+define("Q9","Úloha 9: Všetko k 1.");
+define("Q9_DESC","V Traviane je vždy čo robiť! Kým čakáte na príchod obrovskej armády, teraz by sme mali trochu zvýšiť vašu produkciu surovín. Rozšírte všetky svoje dlaždice zdrojov na úroveň 1.");
+define("Q9_ORDER","Poradie:<\/p>Rozšírte všetky dlaždice zdrojov na úroveň 1.");
+define("Q9_RESP","Výborne, vaša produkcia surovín len prosperuje.<br \/><br \/>Čoskoro môžeme začať s výstavbou budov v dedine.");
 
-define("Q10","Task 10: Dove of Peace");
-define("Q10_DESC","The first days after signing up you are protected against attacks by your fellow players. You can see how long this protection lasts by adding the code <b>[#0]<\/b> to your profile.");
-define("Q10_ORDER","Order:<\/p>Write the code <b>[#0]<\/b> into your profile by adding it to one of the two description fields.");
-define("Q10_RESP","Well done! Now everyone can see what a great warrior the world is approached by.");
-define("Q10_REWARD","Your reward:<\/p>2 day Travian");
+define("Q10","Úloha 10: Holubica mieru");
+define("Q10_DESC","Prvé dni po registrácii ste chránení pred útokmi ostatných hráčov. Ak chcete zistiť, ako dlho táto ochrana vydrží, pridajte do svojho profilu kód <b>[#0]<\/b> ");
+define("Q10_ORDER","Objednávka:<\/p>Napíšte kód <b>[#0]<\/b> do svojho profilu tak, že ho pridáte do jedného z dvoch polí popisu.");
+define("Q10_RESP","Výborne! Teraz každý vidí, aký veľký bojovník svet oslovuje.");
+define("Q10_REWARD","Vaša odmena:<\/p>2 dni Travian");
 
-define("Q11","Task 11: Neighbours!");
-define("Q11_DESC","Around you, there are many different villages. One of them is named. ");
-define("Q11_DESC1"," Click on 'map' in the header menu and look for that village. The name of your neighbours' villages can be seen when hovering your mouse over any of them.");
-define("Q11_ORDER","Order:</p>Look for the coordinates of ");
-define("Q11_ORDER1","and enter them here.");
-define("Q11_RESP","Exactly, there ");
-define("Q11_RESP1"," Village! As many resources as you reach this village. Well, almost as much ...");
-define("Q11_BUTN","complete task");
+define("Q11","Úloha 11: Susedia!");
+define("Q11_DESC","Okolo vás je veľa rôznych dedín. Jedna z nich je pomenovaná. ");
+define("Q11_DESC1"," Kliknite na 'mapu' v hlavičkovom menu a vyhľadajte danú dedinu. Názvy dedín vašich susedov uvidíte, keď na ktorúkoľvek z nich umiestnite kurzor myši.");
+define("Q11_ORDER","Poradie:</p>Vyhľadajte súradnice ");
+define("Q11_ORDER1","a zadajte ich tu.");
+define("Q11_RESP","Presne tak ");
+define("Q11_RESP1"," Dedina! Toľko zdrojov, koľko sa dostanete do tejto dediny. No, skoro toľko ...");
+define("Q11_BUTN","dokončite úlohu");
 
-define("Q12","Task 12: Cranny");
-define("Q12_DESC","It's getting time to erect a cranny. The world of <?php echo SERVER_NAME; ?> is dangerous.<br \/><br \/>Many players live by stealing other players' resources. Build a cranny to hide some of your resources from enemies.");
-define("Q12_ORDER","Order:<\/p>Construct a Cranny.");
-define("Q12_RESP","Well done, now it's way harder for your mean fellow players to plunder your village.<br \/><br \/>If under attack, your villagers will hide the resources in the Cranny all on their own.");
+define("Q12","Úloha 12: Úkryt");
+define("Q12_DESC","Je čas postaviť úkryt. Svet <?php echo SERVER_NAME; ?> je nebezpečný.<br \/><br \/>Mnoho hráčov žije kradnutím zdrojov iných hráčov. Postavte si štrbinu, aby ste skryli niektoré zo svojich zdrojov pred nepriateľmi.");
+define("Q12_ORDER","Order:<\/p>Postavte úkryt");
+define("Q12_RESP","Výborne, teraz je pre vašich podlých spoluhráčov oveľa ťažšie vyplieniť vašu dedinu.<br \/><br \/>Ak budú napadnutí, vaši dedinčania skryjú zdroje v úkryte sami.");
 
-define("Q13","Task 13: To Two.");
-define("Q13_DESC","In <?php echo SERVER_NAME; ?> there is always something to do! Extend one woodcutter, one clay pit, one iron mine and one cropland to level 2 each.");
-define("Q13_ORDER","Order:<\/p>Extend one of each resource tile to level 2.");
-define("Q13_RESP","Very good, your village grows and thrives!");
+define("Q13","Úloha 13: Do dvoch.");
+define("Q13_DESC","V <?php echo SERVER_NAME; ?> je vždy čo robiť! Rozšírte jedného drevorubača, jednu hlinenú jamu, jednu železnú baňu a jednu poľnohospodársku pôdu na úroveň 2 každý.");
+define("Q13_ORDER","Poradie:<\/p>Rozšírte jednu z každej dlaždice zdroja na úroveň 2.");
+define("Q13_RESP","Výborne, vaša dedina rastie a prosperuje!");
 
-define("Q14","Task 14: Instructions");
-define("Q14_DESC","In the ingame instructions you can find short information texts about different buildings and types of units.<br \/><br \/>Click on 'instructions' at the left to find out how much lumber is required for the barracks.");
-define("Q14_ORDER","Order:<\/p>Enter how much lumber barracks cost");
-define("Q14_BUTN","complete task");
-define("Q14_RESP","Exactly! Barracks cost 210 lumber.");
+define("Q14","Úloha 14: Pokyny");
+define("Q14_DESC","V herných pokynoch nájdete krátke informačné texty o rôznych budovách a typoch jednotiek.<br \/><br \/>Kliknutím na 'instructions' vľavo zistíte, koľko je dreva potrebné pre kasárne.");
+define("Q14_ORDER","Order:<\/p>Zadajte, koľko stoja kasárne");
+define("Q14_BUTN","dokončit úlohu");
+define("Q14_RESP","Presne tak! Kasárne stoja 210 reziva.");
 
-define("Q15","Task 15: Main Building");
-define("Q15_DESC","Your master builders need a main building level 3 to erect important buildings such as the marketplace or barracks.");
-define("Q15_ORDER","Order:<\/p>Extend your main building to level 3.");
-define("Q15_RESP","Well done. The main building level 3 has been completed.<br><br>With this upgrade your master builders cannot only construct more types of buildings but also do so faster.");
+define("Q15","Úloha 15: Hlavná budova");
+define("Q15_DESC","Vaši stavitelia potrebujú hlavnú budovu úrovne 3, aby mohli postaviť dôležité budovy ako trhovisko alebo kasárne.");
+define("Q15_ORDER","Poradie:<\/p>Rozšírte svoju hlavnú budovu na úroveň 3.");
+define("Q15_RESP","Výborne. Hlavná budova úrovne 3 je dokončená.<br><br>Vďaka tejto inovácii vaši majstri stavajú nielen viac typov budov, ale aj rýchlejšie.");
 
-define("Q16","Task 16: Advanced!");
-define("Q16_DESC","Look up your rank in the player statistics again and enjoy your progress.");
-define("Q16_ORDER","Order:<\/p>Look for your rank in the statistics and enter it here.");
-define("Q16_RESP","Well done! That's your current rank.");
+define("Q16","Úloha 16: Pokročilé!");
+define("Q16_DESC","Znova si pozrite svoju pozíciu v štatistikách hráčov a vychutnajte si svoj pokrok.");
+define("Q16_ORDER","Poradie:<\/p>Vyhľadajte svoju pozíciu v štatistike a zadajte ju sem.");
+define("Q16_RESP","Výborne! To je vaša aktuálna hodnosť.");
 
-define("Q17","Task 17: Weapons or Dough");
-define("Q17_DESC","Now you have to make a decision: Either trade peacefully or become a dreaded warrior.<br \/><br \/>For the marketplace you need a granary, for the barracks you need a rally point.");
-define("Q17_BUTN","Economy");
-define("Q17_BUTN1","Military");
+define("Q17","Úloha 17: Zbrane alebo cesto");
+define("Q17_DESC","Teraz sa musíte rozhodnúť: Buď obchodujte pokojne, alebo sa staňte obávaným bojovníkom.<br \/><br \/>Pre trhovisko potrebujete sýpku, pre kasárne potrebujete zhromaždisko ");
+define("Q17_BUTN","Ekonomika");
+define("Q17_BUTN1","Vojenské");
 
-define("Q18","Task 18: Military");
-define("Q18_DESC","A brave decision. To be able to send troops you need a rally point.<br \/><br \/>The rally point must be built on a specific building site. The ");
-define("Q18_DESC1"," building site.");
-define("Q18_DESC2"," is located on the right side of the main building, slightly below it. The building site itself is curved.");
-define("Q18_ORDER","Order:<\/p>Construct a rally point.");
-define("Q18_RESP","Your rally point has been erected! A good move towards world domination!");
+define("Q18","Úloha 18: Vojenské");
+define("Q18_DESC","Odvážne rozhodnutie. Aby ste mohli vyslať jednotky, potrebujete zhromaždisko.<br \/><br \/>Zhromaždisko musí byť postavené na špecifickom stavenisku. ");
+define("Q18_DESC1"," stavenisko.");
+define("Q18_DESC2"," sa nachádza na pravej strane hlavnej budovy, mierne pod ňou. Samotné stavenisko je zakrivené.");
+define("Q18_ORDER","Poradie:<\/p>Postavte zhromaždisko.");
+define("Q18_RESP","Vaše zhromaždisko bolo postavené! Dobrý krok k svetovláde!");
 
-define("Q19","Task 19: Barracks");
-define("Q19_DESC","Now you have a main building level 3 and a rally point. That means that all prerequisites for building barracks have been fulfilled.<br><br>You can use the barracks to train troops for fighting.");
-define("Q19_ORDER","Order:<\/p>Construct barracks.");
-define("Q19_RESP","Well done... The best instructors from the whole country have gathered to train your men\u2019s fighting skills to top form.");
+define("Q19","Úloha 19: Kasárne");
+define("Q19_DESC","Teraz máte hlavnú budovu úrovne 3 a zhromaždisko. To znamená, že všetky predpoklady na stavbu kasární sú splnené.<br><br>Kasárne môžete použiť na výcvik jednotiek na boj." );
+define("Q19_ORDER","Poradie:<\/p>Postavte kasárne.");
+define("Q19_RESP","Výborne... Zišli sa najlepší inštruktori z celej krajiny, aby vycvičili bojové schopnosti vašich mužov do najvyššej formy.");
 
-define("Q20","Task 20: Train.");
-define("Q20_DESC","Now that you have barracks you can start training troops. Train two ");
-define("Q20_ORDER","Please train 2 ");
-define("Q20_RESP","The foundation for your glorious army has been laid.<br \/><br \/>Before sending your army off to plunder you should check with the.");
-define("Q20_RESP1","Combat Simulator");
-define("Q20_RESP2","to see how many troops you need to successfully fight one rat without losses.");
+define("Q20","Úloha 20: Trén.");
+define("Q20_DESC","Teraz, keď máte kasárne, môžete začať trénovať jednotky. Trénujte dvoch ");
+define("Q20_ORDER","Prosím trénujte 2");
+define("Q20_RESP","Základ pre vašu slávnu armádu bol položený.<br \/><br \/>Pred odoslaním svojej armády na plienenie by ste sa mali poradiť s.");
+define("Q20_RESP1","Bojový simulátor");
+define("Q20_RESP2","aby ste videli, koľko vojakov potrebujete na úspešný boj s jednou krysou bez strát.");
 
-define("Q21","Task 18: Economy");
-define("Q21_DESC","Trade & Economy was your choice. Golden times await you for sure!");
-define("Q21_ORDER","Order:<\/p>Construct a Granary.");
-define("Q21_RESP","Well done! With the Granary you can store more wheat.");
+define("Q21","Úloha 18: Hospodárnosť");
+define("Q21_DESC","Obchod a ekonomika bola vaša voľba. Zlaté časy vás určite čakajú!");
+define("Q21_ORDER","Poradie:<\/p>Postavte sýpku.");
+define("Q21_RESP","Výborne! So sýpkou môžete uskladniť viac pšenice.");
 
-define("Q22","Task 19: Warehouse");
-define("Q22_DESC","Not only Crop has to be saved. Other resources can go to waste as well if they are not stored correctly. Construct a Warehouse!");
-define("Q22_ORDER","Order:<\/p>Construct Warehouse.");
-define("Q22_RESP",";Well done, your Warehouse is complete...&rdquo;<\/i><br \/>Now you have fulfilled all prerequisites required to construct a Marketplace.");
+define("Q22","Úloha 19: Sklad");
+define("Q22_DESC","Netreba šetriť iba úrodu. Ak nie sú správne uskladnené, môžu vyjsť nazmar aj iné zdroje. Vybudujte sklad!");
+define("Q22_ORDER","Poradie:<\/p>Postavte sklad.");
+define("Q22_RESP",";Výborne, váš sklad je kompletný...&rdquo;<\/i><br \/>Teraz ste splnili všetky predpoklady potrebné na vytvorenie Marketplace.");
 
-define("Q23","Task 20: Marketplace.");
-define("Q23_DESC",";Construct a Marketplace so you can trade with your fellow players.");
-define("Q23_ORDER","Order:<\/p>Please build a Marketplace.");
-define("Q23_RESP",";The Marketplace has been completed. Now you can make offers of your own and accept foreign offers! When creating your own offers, you should think about offering what other players need most to get more profit.");
+define("Q23","Úloha 20: Marketplace.");
+define("Q23_DESC",";Vybudujte trhovisko, aby ste mohli obchodovať so svojimi kolegami.");
+define("Q23_ORDER","Objednávka:<\/p>Vytvorte si prosím Marketplace.");
+define("Q23_RESP",";Tržisko bolo dokončené. Teraz môžete vytvárať vlastné ponuky a prijímať zahraničné ponuky! Pri vytváraní vlastných ponúk by ste mali myslieť na to, aby ste ponúkli to, čo ostatní hráči najviac potrebujú, aby získali väčší zisk.") ;
 
-define("Q24","Task 21: Everything to 2.");
-define("Q24_DESC","Now we should increase your resource production a bit. Build an additional woodcutter, clay pit, iron mine and cropland to level 1.");
-define("Q24_ORDER","Order:<\/p>Extend all resource tiles to level 2.");
-define("Q24_RESP","Congratulations! Your village grows and thrives...");
+define("Q24","Úloha 21: Všetko k 2.");
+define("Q24_DESC","Teraz by sme mali trochu zvýšiť vašu produkciu surovín. Postavte ďalšieho drevorubača, hlinenú jamu, železnú baňu a ornú pôdu na úroveň 1.");
+define("Q24_ORDER","Poradie:<\/p>Rozšírte všetky dlaždice zdrojov na úroveň 2.");
+define("Q24_RESP","Blahoželáme! Vaša dedina rastie a prosperuje...");
 
-define("Q28","Task 22: Alliance.");
-define("Q28_DESC","Teamwork is important in Travian. Players who work together organise themselves in alliances. Get an invitation from an alliance in your region and join this alliance. Alternatively, you can found your own alliance. To do this, you need a level 3 embassy.");
-define("Q28_ORDER","Order:<\/p>Join an alliance or found one on your own.");
-define("Q28_RESP","Is good! Now you're in a union called");
-define("Q28_RESP1",", and you're a member of their alliance with the faster you'll progress...");
+define("Q28","Úloha 22: Aliancia.");
+define("Q28_DESC","Tímová práca je v Traviane dôležitá. Hráči, ktorí spolupracujú, sa organizujú do aliancií. Získajte pozvánku od aliancie vo vašom regióne a pripojte sa k tejto aliancii. Prípadne si môžete založiť vlastnú alianciu. Ak to chcete urobiť, musíte potrebujete veľvyslanectvo úrovne 3.");
+define("Q28_ORDER","Poradie:<\/p>Pripojte sa k aliancii alebo si ju založte sami.");
+define("Q28_RESP","Je to dobré! Teraz ste v zväzku s názvom");
+define("Q28_RESP1"," a ste členom ich aliancie s tým rýchlejšie budete postupovať...");
 
-define("Q29","Task 23: Main Building to Level 5");
-define("Q29_DESC","To be able to build a palace or residence, you will need a main building at level 5.");
-define("Q29_ORDER","Order:<\/p>Upgrade your main building to level 5.");
-define("Q29_RESP","The main building is level 5 now and you can build palace or residence...");
+define("Q29","Úloha 23: Hlavná budova po úroveň 5");
+define("Q29_DESC","Aby ste mohli postaviť palác alebo rezidenciu, budete potrebovať hlavnú budovu na úrovni 5.");
+define("Q29_ORDER","Poradie:<\/p>Vylepšite svoju hlavnú budovu na úroveň 5.");
+define("Q29_RESP","Hlavná budova je teraz na úrovni 5 a môžete si postaviť palác alebo rezidenciu...");
 
-define("Q30","Task 24: Granary to Level 3.");
-define("Q30_DESC","That you do not lose crop, you should upgrade your granary.");
-define("Q30_ORDER","Order:<\/p>Upgrade your granary to level 3.");
-define("Q30_RESP","Granary is level 3 now...");
+define("Q30","Úloha 24: Sýpka na úroveň 3.");
+define("Q30_DESC","Aby ste nestratili úrodu, mali by ste upgradovať svoju sýpku.");
+define("Q30_ORDER","Objednávka:<\/p>Inovujte svoju sýpku na úroveň 3.");
+define("Q30_RESP","Sýpka je teraz na úrovni 3...");
 
-define("Q31","Task 25: Warehouse to Level 7");
-define("Q31_DESC"," To make sure your resources won't overflow, you should upgrade your warehouse.");
-define("Q31_ORDER","Order:<\/p>Upgrade your warehouse to level 7.");
-define("Q31_RESP","Warehouse has upgraded to level 7...");
+define("Q31","Úloha 25: Sklad na úroveň 7");
+define("Q31_DESC"," Aby ste sa uistili, že vaše zdroje nepretečú, mali by ste upgradovať svoj sklad.");
+define("Q31_ORDER","Objednávka:<\/p>Inovujte svoj sklad na úroveň 7.");
+define("Q31_RESP","Sklad prešiel na úroveň 7...");
 
-define("Q32","Task 26: All to five!");
-define("Q32_DESC","You will always need more resources. Resource tiles are quite expensive but will always pay out in the long term.");
-define("Q32_ORDER","Order:<\/p>Upgrade all resources tiles to level 5.");
-define("Q32_RESP","All resources are at level 5, very good, your village grows and thrives!");
+define("Q32","Úloha 26: Všetci do piatich!");
+define("Q32_DESC","Vždy budete potrebovať viac zdrojov. Dlaždice zdrojov sú dosť drahé, ale z dlhodobého hľadiska sa vždy vyplatia.");
+define("Q32_ORDER","Poradie:<\/p>Vylepšite všetky dlaždice zdrojov na úroveň 5.");
+define("Q32_RESP","Všetky zdroje sú na úrovni 5, veľmi dobré, vaša dedina rastie a prosperuje!");
 
-define("Q33","Task 27: Palace or Residence?");
-define("Q33_DESC","To found a new village, you will need settlers. Those you can train in either a palace or a residence.");
-define("Q33_ORDER","Order:<\/p>Build a palace or residence to level 10.");
-define("Q33_RESP","had reached to level 10, you can now train settlers and found your second village. Notice the cultural points...");
+define("Q33","Úloha 27: Palác alebo rezidencia?");
+define("Q33_DESC","Na založenie novej dediny budete potrebovať osadníkov. Takých, ktorých si môžete vycvičiť v paláci alebo rezidencii.");
+define("Q33_ORDER","Poradie:<\/p>Postavte palác alebo rezidenciu na úroveň 10.");
+define("Q33_RESP","dosiahol úroveň 10, teraz môžete trénovať osadníkov a nájsť svoju druhú dedinu. Všimnite si kultúrne body...");
 
-define("Q34","Task 28: 3 settlers.");
-define("Q34_DESC","To found a new village, you will need settlers. They can be trained  in either a palace or a residence.");
-define("Q34_ORDER","Order:<\/p>Train 3 settlers.");
-define("Q34_RESP","3 settlers were trained. To found new village you need at least");
-define("Q34_RESP1","culture points...");
+define("Q34","Úloha 28: 3 osadníci.");
+define("Q34_DESC","Na založenie novej dediny budete potrebovať osadníkov. Môžu byť vyškolení buď v paláci alebo v rezidencii.");
+define("Q34_ORDER","Poradie:<\/p>Vytrénujte 3 osadníkov.");
+define("Q34_RESP","vyškolili sa 3 osadníci. Na založenie novej dediny potrebujete aspoň");
+define("Q34_RESP1","kultúrne body...");
 
-define("Q35","Task 29: New Village.");
-define("Q35_DESC","There are a lot of empty tiles on the map. Find one that suits you and found a new village");
-define("Q35_ORDER","Order:<\/p>Found a new village.");
-define("Q35_RESP","I am proud of you! Now you have two villages and have all the possibilities to build a mighty empire. I wish you luck with this.");
+define("Q35","Úloha 29: Nová dedina.");
+define("Q35_DESC","Na mape je veľa prázdnych dlaždíc. Nájdite si takú, ktorá vám vyhovuje, a nájdite novú dedinu");
+define("Q35_ORDER","Poradie:<\/p>Našla sa nová dedina.");
+define("Q35_RESP","Som na teba hrdý! Teraz máš dve dediny a máš všetky možnosti na vybudovanie mocnej ríše. Prajem ti veľa šťastia.");
 
-define("Q36"," Task 30: Build a ");
-define("Q36_DESC","Now that you have trained some soldiers, you should build a ");
-define("Q36_DESC1"," too. It increases the base defence and your soldiers will receive a defensive bonus.");
-define("Q36_ORDER","Order:<\/p>Build a ");
-define("Q36_RESP","That's what I'm talking about. A ");
-define("Q36_RESP1"," Very useful. It increases the defence of the troops in the village.");
+define("Q36"," Úloha 30: Zostavte ");
+define("Q36_DESC","Teraz, keď ste vycvičili pár vojakov, mali by ste postaviť ");
+define("Q36_DESC1"," tiež. Zvyšuje obranu základne a vaši vojaci dostanú obranný bonus.");
+define("Q36_ORDER","Poradie:<\/p>Postavte ");
+define("Q36_RESP","O tom hovorím. A ");
+define("Q36_RESP1"," Veľmi užitočné. Zvyšuje obranu jednotiek v dedine.");
 
-define("Q37","Tasks");
-define("Q37_DESC","All tasks achieved!");
+define("Q37","Úlohy");
+define("Q37_DESC","Všetky úlohy splnené!");
 
-define("OPT3","Resource overview");
-define("T","Your resource deliveries");
-define("T1","Delivery");
-define("T2","Delivery time");
-define("T3","Status");
-define("T4","fetch");
-define("T5","fetched");
-define("T6","on hold");
-define("T7","1 day Travian ");
-define("T8","2 days Travian ");
+define("OPT3","Prehľad zdrojov");
+define("T","Vaše dodávky zdrojov");
+define("T1","Doručenie");
+define("T2","Dodacia lehota");
+define("T3","Stav");
+define("T4","načítať");
+define("T5","vyzdvihnuté");
+define("T6","na počkanie");
+define("T7","1 deň Universe");
+define("T8","2 dni Universe");
 
 //Quest 25
-define("Q25_7","Task 7: Neighbours!");
-define("Q25_7_DESC","Around you, there are many different villages. One of them is named. ");
-define("Q25_7_DESC1","Click 'Map' in the head menu and look for that village. The name of your neighbours' villages can be seen once you hover your mouse over any of them.");
-define("Q25_7_ORDER","<\/p><b>Order:</b><br>Look for the coordinates of ");
-define("Q25_7_ORDER1","and enter them here.");
-define("Q25_7_RESP","Exactly, there ");
-define("Q25_7_RESP1"," Village! As many resources as you reach this village. Well, almost as much ...");
+define("Q25_7","Úloha 7: Susedia!");
+define("Q25_7_DESC","Okolo vás je veľa rôznych dedín. Jedna z nich je pomenovaná. ");
+define("Q25_7_DESC1","Kliknite na 'Mapa' v hlavnom menu a vyhľadajte danú dedinu. Názvy dedín vašich susedov sa zobrazia, keď na ktorúkoľvek z nich umiestnite kurzor myši.");
+define("Q25_7_ORDER","<\/p><b>Poradie:</b><br>Vyhľadajte súradnice ");
+define("Q25_7_ORDER1","a zadajte ich tu.");
+define("Q25_7_RESP","Presne tak, tam ");
+define("Q25_7_RESP1"," Dedina! Toľko zdrojov, koľko dosiahnete do tejto dediny. No, skoro toľko ...");
 
-define("Q25_8","Task 8: Huge Army!");
-define("Q25_8_DESC","Now I've got a very special Quest for you. I am hungry. Give me 200 crop!<br \/><br \/>In return I will try to organize a huge army to protect your village.");
-define("Q25_8_ORDER","Order:<\/p>Send 200 crop to the taskmaster.");
-define("Q25_8_BUTN","Send crop");
-define("Q25_8_NOCROP","No Enough Crop!");
+define("Q25_8","Úloha 8: Obrovská armáda!");
+define("Q25_8_DESC","Teraz mám pre vás veľmi špeciálnu úlohu. Som hladný. Dajte mi 200 úrody!<br \/><br \/>Na oplátku sa pokúsim zorganizovať obrovskú armádu na ochranu vaša dedina.");
+define("Q25_8_ORDER","Objednávka:<\/p>Pošlite 200 obilia správcovi úloh.");
+define("Q25_8_BUTN","Odoslať obilie");
+define("Q25_8_NOCROP","Nedostatok Obilie!");
 
-define("Q25_9","Task 9: One each!");
-define("Q25_9_DESC","In " . SERVER_NAME . " there is always something to do! While you are waiting for your new army,<br \/><br \/>extend one additional woodcutter, clay pit, iron mine and cropland to level 1");
-define("Q25_9_ORDER","Order:<\/p>Extend one more of each resource tile to level 1.");
-define("Q25_9_RESP","Very good, great development of resource production.");
+define("Q25_9","Úloha 9: Každý jeden!");
+define("Q25_9_DESC","V " . SERVER_NAME . " je vždy čo robiť! Kým čakáte na svoju novú armádu,<br \/><br \/>rozšírte o jedného drevorubača, hlinenú jamu, železnú baňu a orná pôda na úroveň 1");
+define("Q25_9_ORDER","Poradie:<\/p>Rozšírte ešte jednu z každej dlaždice zdroja na úroveň 1.");
+define("Q25_9_RESP","Veľmi dobre, skvelý rozvoj produkcie zdrojov.");
 
-define("Q25_10","Task 10: Comming Soon!");
-define("Q25_10_DESC","Now there is time for a small break until the gigantic army I sent you arrives.<br \/><br \/>Until then you can explore the map or extend a few resource tiles.");
-define("Q25_10_ORDER","Order:<\/p>Wait for the taskmaster's army to arrive");
-define("Q25_10_RESP","Now a huge army from taskmaster has arrive to protect your village");
-define("Q25_10_REWARD","Your reward:<\/p>2 days more of Travian");
+define("Q25_10","Úloha 10: Už čoskoro!");
+define("Q25_10_DESC","Teraz je čas na malú prestávku, kým nepríde obrovská armáda, ktorú som vám poslal.<br \/><br \/>Dovtedy môžete preskúmať mapu alebo rozšíriť niekoľko dlaždíc zdrojov.") ;
+define("Q25_10_ORDER","Pokyn:<\/p>Počkajte, kým dorazí armáda správcu úloh");
+define("Q25_10_RESP","Teraz dorazila obrovská armáda od správcu úloh, aby ochránila vašu dedinu");
+define("Q25_10_REWARD","Vaša odmena:<\/p>2 dni viac Universu");
 
-define("Q25_11","Task 11: Reports");
-define("Q25_11_DESC","Every time something important happens to your account you will receive a report.<br \/><br \/>You can see these by clicking on the left half of the 5th button (from left to right). Read the report and come back here.");
-define("Q25_11_ORDER","Order:<\/p>Read your latest report.");
-define("Q25_11_RESP","You received it? Very good. Here is your reward.");
+define("Q25_11","Úloha 11: Reporty");
+define("Q25_11_DESC","Vždy, keď sa s vaším účtom stane niečo dôležité, dostanete hlásenie.<br \/><br \/>Zobrazíte ich kliknutím na ľavú polovicu 5. tlačidla (zľava doprava Prečítajte si správu a vráťte sa sem.");
+define("Q25_11_ORDER","Poradie:<\/p>Prečítajte si svoj najnovší prehľad.");
+define("Q25_11_RESP","Dostali ste to? Veľmi dobre. Tu je vaša odmena.");
 
-define("Q25_12","Task 12: Everything to 1.");
-define("Q25_12_DESC","Now we should increase your resource production a bit.");
-define("Q25_12_ORDER","Order:<\/p>Extend all resource tiles to level 1.");
-define("Q25_12_RESP","Very good, your resource production just thrives.<br \/><br \/>Soon we can start with constructing buildings in the village.");
+define("Q25_12","Úloha 12: Všetko k 1.");
+define("Q25_12_DESC","Teraz by sme mali trochu zvýšiť vašu produkciu zdrojov.");
+define("Q25_12_ORDER","Poradie:<\/p>Rozšírte všetky dlaždice zdrojov na úroveň 1.");
+define("Q25_12_RESP","Výborne, vaša produkcia zdrojov len prosperuje.<br \/><br \/>Čoskoro môžeme začať s výstavbou budov v dedine.");
 
-define("Q25_13","Task 13: Dove of Peace");
-define("Q25_13_DESC","The first days after signing up you are protected against attacks by your fellow players. You can see how long this protection lasts by adding the code <b>[#0]<\/b> to your profile.");
-define("Q25_13_ORDER","Order:<\/p>Write the code <b>[#0]<\/b> into your profile by adding it to one of the two description fields.");
-define("Q25_13_RESP","Well done! Now everyone can see what a great warrior the world is approached by.");
+define("Q25_13","Úloha 13: Holubica mieru");
+define("Q25_13_DESC","Prvé dni po registrácii ste chránení pred útokmi ostatných hráčov. Ak chcete zistiť, ako dlho táto ochrana vydrží, pridajte do svojho profilu kód <b>[#0]<\/b> ");
+define("Q25_13_ORDER","Objednávka:<\/p>Napíšte kód <b>[#0]<\/b> do svojho profilu tak, že ho pridáte do jedného z dvoch polí popisu.");
+define("Q25_13_RESP","Výborne! Teraz každý vidí, aký veľký bojovník svet oslovuje.");
 
-define("Q25_14","Task 14: Cranny");
-define("Q25_14_DESC","It's getting time to erect a cranny. The world of <b>" . SERVER_NAME. "</b> is dangerous.<br \/><br \/>Many players live by stealing other players' resources. Build a cranny to hide some of your resources from enemies.");
-define("Q25_14_ORDER","Order:<\/p>Construct a Cranny.");
-define("Q25_14_RESP","Well done, now it's way harder for your mean fellow players to plunder your village.<br \/><br \/>If under attack, your villagers will hide the resources in the Cranny all on their own.");
+define("Q25_14","Úloha 14: Úkryt");
+define("Q25_14_DESC","Je čas postaviť úkryt. Svet <b>" . SERVER_NAME. "</b> je nebezpečný.<br \/><br \/>Mnoho hráčov žije kradnutím zdrojov iných hráčov. Postavte si úkryt, aby ste skryli niektoré zo svojich zdrojov pred nepriateľmi.");
+define("Q25_14_ORDER","Poradie:<\/p>Postavte úkryt.");
+define("Q25_14_RESP","Výborne je pre vašich pod2 vašuch oveľa oveľa vyplieniť dedinu.<br \/><br \>Ak budú napadnutí, vaši dedinčania skryjú zdroje v Úkryte sami.");
 
-define("Q25_15","Task 15: To Two.");
-define("Q25_15_DESC","In <b>" . SERVER_NAME. "</b> there is always something to do! Extend one woodcutter, one clay pit, one iron mine and one cropland to level 2 each.");
-define("Q25_15_ORDER","Order:<\/p>Extend one of each resource tile to level 2.");
-define("Q25_15_RESP","Very good, your village grows and thrives!");
+define("Q25_15","Úloha 15: Do dvoch.");
+define("Q25_15_DESC","V <b>" . SERVER_NAME. "</b> vždy je čo robiť! Rozšírte jedného drevorubača, jednu hlinenú jamu, jednu železnú baňu a jednu poľnohospodársku pôdu na úroveň 2 každý.");
+define("Q25_15_ORDER","Poradie:<\/p>Rozšírte jednu z každej dlaždice zdroja na úroveň 2.");
+define("Q25_15_RESP","Výborne, vaša dedina rastie a prosperuje!");
 
-define("Q25_16","Task 16: Instructions");
-define("Q25_16_DESC","In the ingame instructions you can find short information texts about different buildings and types of units.<br \/><br \/>Click on 'instructions' at the left to find out how much lumber is required for the barracks.");
-define("Q25_16_ORDER","Order:<\/p>Enter how much lumber barracks cost");
-define("Q25_16_BUTN","complete task");
-define("Q25_16_RESP","Exactly! Barracks cost 210 lumber.");
+define("Q25_16","Úloha 16: Pokyny");
+define("Q25_16_DESC","V návode na hru nájdete krátke informačné texty o rôznych budovách a typoch jednotiek.<br \/><br \/>Kliknite na 'Manuál' vľavo, aby ste zistili, koľko dreva je potrebné pre kasárne.");
+define("Q25_16_ORDER","Order:<\/p>Zadajte, koľko stoja kasárne");
+define("Q25_16_BUTN","dokončiť úlohu");
+define("Q25_16_RESP","Presne tak! Kasárne stoja 210 dreva.");
 
-define("Q25_17","Task 17: Main Building");
-define("Q25_17_DESC","Your master builders need a main building level 3 to erect important buildings such as the marketplace or barracks.");
-define("Q25_17_ORDER","Order:<\/p>Extend your main building to level 3.");
-define("Q25_17_RESP","Well done. The main building level 3 has been completed.<br><br>With this upgrade your master builders can construct more types of buildings and also do so faster.");
+define("Q25_17","Úloha 17: Hlavná budova");
+define("Q25_17_DESC","Vaši stavitelia potrebujú hlavnú budovu úrovne 3, aby mohli postaviť dôležité budovy ako trhovisko alebo kasárne.");
+define("Q25_17_ORDER","Poradie:<\/p>Rozšírte svoju hlavnú budovu na úroveň 3.");
+define("Q25_17_RESP","Výborne. Hlavná budova 3. úrovne je dokončená.<br><br>Vďaka tejto inovácii môžu vaši majstri stavať viac typov budov a tiež rýchlejšie.");
 
-define("Q25_18","Task 18: Advanced!");
-define("Q25_18_DESC","Look up your rank in the player statistics again and enjoy your progress.");
-define("Q25_18_ORDER","Order:<\/p>Look for your rank in the statistics and enter it here.");
-define("Q25_18_RESP","Well done! That's your current rank.");
+define("Q25_18","Úloha 18: Pokročilé!");
+define("Q25_18_DESC","Znova si pozrite svoju pozíciu v hráčskych štatistikách a vychutnajte si svoj pokrok.");
+define("Q25_18_ORDER","Poradie:<\/p>Vyhľadajte svoju pozíciu v štatistike a zadajte ju sem.");
+define("Q25_18_RESP","Výborne! To je vaša aktuálna hodnosť.");
 
-define("Q25_19","Task 19: Weapons or Dough");
-define("Q25_19_DESC","Now you have to make a decision: Either trade peacefully or become a dreaded warrior.<br \/><br \/>For the marketplace you need a granary, for the barracks you need a rally point.");
-define("Q25_19_BUTN","Economy");
-define("Q25_19_BUTN1","Military");
+define("Q25_19","Úloha 19: Zbrane alebo cesto");
+define("Q25_19_DESC","Teraz sa musíte rozhodnúť: Buď obchodujte pokojne, alebo sa nestaňte obchodovaným bojovníkom.<br \/><br \/>Pre trhovisko potrebujete potrebné zhromaždisko, pre kasárne potrebujete zhromaždisko ");
+define("Q25_19_BUTN","Ekonomické");
+define("Q25_19_BUTN1","Vojenské");
 
-define("Q25_20","Task 19: Economy");
-define("Q25_20_DESC","Trade & Economy was your choice. Golden times await you for sure!");
-define("Q25_20_ORDER","Order:<\/p>Construct a Granary.");
-define("Q25_20_RESP","Well done! With the Granary you can store more wheat.");
+define("Q25_20","Úloha 19: Ekonomika");
+define("Q25_20_DESC","Obchod a ekonomika bola vaša voľba. Zlaté časy vás určite čakajú!");
+define("Q25_20_ORDER","Poradie:<\/p>Postavte sýpku.");
+define("Q25_20_RESP","Výborne! So sýpkou môžete uskladniť viac pšenice.");
 
-define("Q25_21","Task 20: Warehouse");
-define("Q25_21_DESC","Not only Crop has to be saved. Other resources can go to waste as well if they are not stored correctly. Construct a Warehouse!");
-define("Q25_21_ORDER","Order:<\/p>Construct Warehouse.");
-define("Q25_21_RESP",";Well done, your Warehouse is complete...&rdquo;<\/i><br \/>Now you have fulfilled all prerequisites required to construct a Marketplace.");
+define("Q25_21","Úloha 20: Sklad");
+define("Q25_21_DESC","Nielen úroda sa musí šetriť. Ak nie sú správne uskladnené, môžu vyjsť nazmar aj iné zdroje. Vybudujte sklad!");
+define("Q25_21_ORDER","Poradie:<\/p>Postavte sklad.");
+define("Q25_21_RESP",";Výborne, váš sklad je kompletný...&rdquo;<\/i><br \/>Teraz ste splnili všetky predpoklady potrebné na vytvorenie Sklad-u.");
 
-define("Q25_22","Task 21: Marketplace.");
-define("Q25_22_DESC",";Construct a Marketplace so you can trade with your fellow players.");
-define("Q25_22_ORDER","Order:<\/p>Please build a Marketplace.");
-define("Q25_22_RESP","The Marketplace has been completed. Now you can make offers of your own and accept foreign offers! When creating your own offers, you should think about offering what other players need most to get more profit.");
+define("Q25_22","Úloha 21: Trhovisko.");
+define("Q25_22_DESC",";Vybudujte trhovisko, aby ste mohli obchodovať so svojimi kolegami.");
+define("Q25_22_ORDER","Objednávka:<\/p>Vytvorte prosím Marketplace.");
+define("Q25_22_RESP","Trh bol dokončený. Teraz môžete vytvárať vlastné ponuky a prijímať zahraničné ponuky! Pri vytváraní vlastných ponúk by ste mali myslieť na to, aby ste ponúkli to, čo ostatní hráči najviac potrebujú, aby získali väčší zisk.");
 
-define("Q25_23","Task 19: Military");
-define("Q25_23_DESC","A brave decision. To be able to send troops you need a rally point.<br \/><br \/>The rally point must be built on a specific building site. The ");
-define("Q25_23_DESC1"," building site.");
-define("Q25_23_DESC2"," is located on the right side of the main building, slightly below it. The building site itself is curved.");
-define("Q25_23_ORDER","Order:<\/p>Construct a rally point.");
-define("Q25_23_RESP","Your rally point has been erected! A good move towards world domination!");
+define("Q25_23","Úloha 19: Vojenské");
+define("Q25_23_DESC","Odvážne rozhodnutie. Aby ste mohli vyslať jednotky, potrebujete zhromaždisko.<br \/><br \/>Zhromaždisko musí byť postavené na špecifickom stavenisku. ");
+define("Q25_23_DESC1"," stavenisko.");
+define("Q25_23_DESC2"," sa nachádza na pravej strane hlavnej budovy, mierne pod ňou. Samotné stavenisko je zakrivené.");
+define("Q25_23_ORDER","Poradie:<\/p>Postavte zhromaždisko.");
+define("Q25_23_RESP","Vaše zhromaždisko bolo postavené! Dobrý krok k svetovláde!");
 
-define("Q25_24","Task 20: Barracks");
-define("Q25_24_DESC","Now you have a main building level 3 and a rally point. That means that all prerequisites for building barracks have been fulfilled.<br><br>You can use the barracks to train troops for fighting.");
-define("Q25_24_ORDER","Order:<\/p>Construct barracks.");
-define("Q25_24_RESP","Well done... The best instructors from the whole country have gathered to train your men\u2019s fighting skills to top form.");
+define("Q25_24","Úloha 20: Kasárne");
+define("Q25_24_DESC","Teraz máte hlavnú budovu úrovne 3 a zhromaždisko. To znamená, že všetky predpoklady na stavbu kasární sú splnené.<br><br>Kasárne môžete použiť na výcvik jednotiek na boj." );
+define("Q25_24_ORDER","Objednávka:<\/p>Postavte kasárne.");
+define("Q25_24_RESP","Výborne... Zišli sa najlepší inštruktori z celej krajiny, aby vycvičili bojové schopnosti vašich mužov do najvyššej formy.");
 
-define("Q25_25","Task 21: Train.");
-define("Q25_25_DESC","Now that you have barracks you can start training troops. Train two ");
-define("Q25_25_ORDER","Please train 2 ");
-define("Q25_25_RESP","The foundation for your glorious army has been laid.<br \/><br \/>Before sending your army off to plunder you should check with the");
-define("Q25_25_RESP1","Combat Simulator");
-define("Q25_25_RESP2","to see how many troops you need to successfully fight one rat without losses.");
+define("Q25_25","Úloha 21: Tréning.");
+define("Q25_25_DESC","Teraz, keď máte kasárne, môžete začať trénovať jednotky. Vycvičte dvoch ");
+define("Q25_25_ORDER","Prosím trénujte 2");
+define("Q25_25_RESP","Základ pre vašu slávnu armádu bol položený.<br \/><br \/>Pred odoslaním svojej armády na plienenie by ste sa mali poradiť s");
+define("Q25_25_RESP1","Bojový simulátor");
+define("Q25_25_RESP2","aby ste videli, koľko vojakov potrebujete na úspešný boj s jednou krysou bez strát.");
 
-define("Q25_26","Task 22: Everything to 2.");
-define("Q25_26_DESC","Now it's time again to extend the cornerstones of might and wealth! This time level 1 is not enough... it will take a while but in the end it will be worth it. Extend all your resource tiles to level 2!");
-define("Q25_26_ORDER","Order:<\/p>Extend all resource tiles to level 2.");
-define("Q25_26_RESP","Congratulations! Your village grows and thrives...");
+define("Q25_26","Úloha 22: Všetko do 2.");
+define("Q25_26_DESC","Teraz je opäť čas rozšíriť základné kamene moci a bohatstva! Tentoraz úroveň 1 nestačí... chvíľu to potrvá, ale nakoniec to bude stáť za to. Rozšírte všetky svoje dlaždice zdrojov na úroveň 2!");
+define("Q25_26_ORDER","Poradie:<\/p>Rozšírte všetky dlaždice zdrojov na úroveň 2.");
+define("Q25_26_RESP","Blahoželáme! Vaša dedina rastie a prekvitá...");
 
-define("Q25_27","Task 23: Friends.");
-define("Q25_27_DESC","As single player it is hard to compete with attackers. It is to your advantage if your neighbours like you.<br \/><br \/>It is even better if you play together with friends. Did you know that you can earn <img src='img/x.gif' class='gold' alt='Gold' title='Gold'> by inviting friends?");
-define("Q25_27_ORDER","Order:<\/p>How much <img src='img/x.gif' class='gold' alt='Gold' title='Gold'> do you earn for inviting a friend?");
-define("Q25_27_RESP","Correct! You get 50 <img src='img/x.gif' class='gold' alt='Gold' title='Gold'> if your invited friend have 2 village.");
+define("Q25_27","Úloha 23: Priatelia.");
+define("Q25_27_DESC","Pre jedného hráča je ťažké konkurovať útočníkom. Je pre vás výhodné, ak vás majú susedia radi.<br \/><br \/>Ešte lepšie je, ak hráte spolu s priateľmi. Vedeli ste, že <img src='img/x.gif' class='gold' alt='Gold' title='Gold'> môžete zarobiť pozývaním priateľov?");
+define("Q25_27_ORDER","Order:<\/p>Koľko <img src='img/x.gif' class='gold' alt='Gold' title='Zlato'> zarobíte za pozvanie priateľa ?");
+define("Q25_27_RESP","Správne! Dostanete 50 <img src='img/x.gif' class='gold' alt='Gold' title='Gold'> ak má váš pozvaný priateľ 2 dediny.");
 
-define("Q25_28","Task 24: Construct Embassy.");
-define("Q25_28_DESC","The world of Travian is dangerous. You already built a cranny to protect you against attackers.<br \/><br \/>A good alliance will give you even better protection.");
-define("Q25_28_ORDER","Order:<\/p>To accept invitations from alliances, build an embassy.");
-define("Q25_28_RESP","Yes! You can wait invitation from an alliance or create you own if embassy has level 3");
+define("Q25_28","Úloha 24: Vybudujte veľvyslanectvo.");
+define("Q25_28_DESC","Svet Travianu je nebezpečný. Už ste si vybudovali úkryt, ktorý vás chráni pred útočníkmi.<br \/><br \/>Dobrá aliancia vám poskytne ešte lepšiu ochranu.");
+define("Q25_28_ORDER","Objednávka:<\/p>Ak chcete prijímať pozvánky od aliancií, postavte si veľvyslanectvo.");
+define("Q25_28_RESP","Áno! Môžete počkať na pozvanie od aliancie alebo si vytvoriť vlastnú, ak má ambasáda úroveň 3");
 
-define("Q25_29","Task 25: Alliance.");
-define("Q25_29_DESC","Teamwork is important in Travian. Players who work together organise themselves in alliances. Get an invitation from an alliance in your region and join this alliance. Alternatively, you can found your own alliance. To do this, you need a level 3 embassy.");
-define("Q25_29_ORDER","Order:<\/p>Join an alliance or found your own alliance.");
-define("Q25_29_RESP","Well done! Now you're in a union called");
-define("Q25_29_RESP1",", and you're a member of their alliance.<br>Working together you will all progress faster...");
+define("Q25_29","Úloha 25: Aliancia.");
+define("Q25_29_DESC","Tímová práca je v Traviane dôležitá. Hráči, ktorí spolupracujú, sa organizujú do aliancií. Získajte pozvánku od aliancie vo vašom regióne a pripojte sa k tejto aliancii. Prípadne si môžete založiť vlastnú alianciu. Ak to chcete urobiť, musíte potrebujete veľvyslanectvo úrovne 3.");
+define("Q25_29_ORDER","Poradie:<\/p>Pripojte sa k aliancii alebo si založte vlastnú alianciu.");
+define("Q25_29_RESP","Výborne! Teraz ste v zväzku s názvom");
+define("Q25_29_RESP1",", a ste členom ich aliancie.<br>Spoločnou prácou budete všetci napredovať rýchlejšie...");
 
-define("Q25_30","Tasks");
-define("Q25_30_DESC","All tasks achieved!");
+define("Q25_30","Úlohy");
+define("Q25_30_DESC","Všetky úlohy splnené!");
 
 
 //======================================================//
 //================ UNITS - DO NOT EDIT! ================//
 //======================================================//
-define("U0","Hero");
+define("U0","Hrdina");
 
-//ROMAN UNITS
-define("U1","Legionnaire");
-define("U2","Praetorian");
-define("U3","Imperian");
-define("U4","Equites Legati");
-define("U5","Equites Imperatoris");
-define("U6","Equites Caesaris");
-define("U7","Battering Ram");
-define("U8","Fire Catapult");
-define("U9","Senator");
-define("U10","Settler");
+//SLACHTA UNITS
+define("U1","Legionár");
+define("U2","Rytier");
+define("U3","Vojak");
+define("U4","Rytieri jazdci");
+define("U5","Cisárovi jazdci");
+define("U6","Caesarovi jazdci");
+define("U7","Baranidlo");
+define("U8","Ohnivý katapult");
+define("U9","Senátor");
+define("U10","Osadník");
 
-//TEUTON UNITS
+//ZBOJNICI UNITS
 define("U11","Clubswinger");
 define("U12","Spearman");
 define("U13","Axeman");
@@ -517,7 +517,7 @@ define("U18","Catapult");
 define("U19","Chief");
 define("U20","Settler");
 
-//GAUL UNITS
+//LUD UNITS
 define("U21","Phalanx");
 define("U22","Swordsman");
 define("U23","Pathfinder");
@@ -527,32 +527,32 @@ define("U26","Haeduan");
 define("U27","Ram");
 define("U28","Trebuchet");
 define("U29","Chieftain");
-define("U30","Settler");
+define("U30","Osadník");
 define("U99","Trap");
 
 //NATURE UNITS
-define("U31","Rat");
-define("U32","Spider");
-define("U33","Snake");
-define("U34","Bat");
-define("U35","Wild Boar");
-define("U36","Wolf");
-define("U37","Bear");
-define("U38","Crocodile");
+define("U31","Potkan");
+define("U32","Pavúk");
+define("U33","Had");
+define("U34","Netopier");
+define("U35","Divoká sviňa");
+define("U36","Vlk");
+define("U37","Medveď");
+define("U38","Krokodíl");
 define("U39","Tiger");
-define("U40","Elephant");
+define("U40","Slon");
 
 //NATARS UNITS
-define("U41","Pikeman");
+define("U41","Čípoš");
 define("U42","Thorned Warrior");
 define("U43","Guardsman");
 define("U44","Birds Of Prey");
 define("U45","Axerider");
-define("U46","Natarian Knight");
-define("U47","War Elephant");
-define("U48","Ballista");
-define("U49","Natarian Emperor");
-define("U50","Natarian Settler");
+define("U46","Maďarsky rytier");
+define("U47","Vojnový slon");
+define("U48","Vrhač kamenov");
+define("U49","Atilla");
+define("U50","Maďarský osadník");
 
 //MONSTER UNITS
 define("U51","Monster Peon");
@@ -567,403 +567,404 @@ define("U59","Monster Chief");
 define("U60","Monster Settler");
 
 // RESOURCES
-define("R1","Lumber");
-define("R2","Clay");
-define("R3","Iron");
-define("R4","Crop");
+define("R1","Drevo");
+define("R2","Hlina");
+define("R3","Železo");
+define("R4","Obilie");
 
 //INDEX.php
-define("LOGIN","Login");
-define("PLAYERS","Players");
-define("MODERATOR","Moderator");
-define("ACTIVE","Active");
+define("LOGIN","Prihláste sa");
+define("PLAYERS","Hráči");
+define("MODERATOR","Moderátor");
+define("ACTIVE","Aktívne");
 define("ONLINE","Online");
-define("TUTORIAL","Tutorial");
-define("PLAYER_STATISTICS","Player statistics");
-define("TOTAL_PLAYERS","".PLAYERS." in total");
-define("ACTIVE_PLAYERS","Active players");
+define("TUTORIAL","Návod");
+define("PLAYER_STATISTICS","Štatistiky hráčov");
+define("TOTAL_PLAYERS","".PLAYERS." celkom");
+define("ACTIVE_PLAYERS","Aktívni hráči");
 define("ONLINE_PLAYERS","".PLAYERS." online");
-define("MP_STRATEGY_GAME","".SERVER_NAME." - the multiplayer strategy game");
-define("WHAT_IS","".SERVER_NAME." is one of the most popular browser games in the world. As a player in ".SERVER_NAME.", you will build your own empire, recruit a mighty army, and fight with your allies for game world hegemony.");
-define("REGISTER_FOR_FREE","Register here for free!");
-define("LATEST_GAME_WORLD","Latest game world");
-define("LATEST_GAME_WORLD2","Register on the latest<br/>game world and enjoy<br/>the advantages of<br/>being one of the<br/>first players.");
-define("PLAY_NOW","Play ".SERVER_NAME." now");
-define("LEARN_MORE","Learn more <br/>about ".SERVER_NAME."!");
-define("LEARN_MORE2","Now with a revolutionised<br>server system, completely new<br>graphics <br>This clone is The Shiz!");
-define("COMUNITY","Community");
-define("BECOME_COMUNITY","Become part of our community now!");
-define("BECOME_COMUNITY2","Become a part of one of<br>the biggest gaming<br>communities in the<br>world.");
-define("NEWS","News");
-define("SCREENSHOTS","Screenshots");
+define("MP_STRATEGY_GAME","".SERVER_NAME." - strategická hra pre viacerých hráčov");
+define("WHAT_IS","".SERVER_NAME." je jednou z najpopulárnejších prehliadačových hier na svete. Ako hráč v ".SERVER_NAME.", vybudujete si vlastné impérium, naverbujete mocnú armádu a budete bojovať so svojimi spojencami o hegemóniu herného sveta.");
+define("REGISTER_FOR_FREE","Zaregistrujte sa tu zadarmo!");
+define("LATEST_GAME_WORLD","Najnovší herný svet");
+define("LATEST_GAME_WORLD2","Zaregistrujte sa v najnovšom<br/>hernom svete a užite si<br/>výhody<br/>byť jedným z<br/>prvých hráčov.");
+define("PLAY_NOW","Hraj ".SERVER_NAME." hneď");
+define("LEARN_MORE","Zistite viac <br/>o ".SERVER_NAME."!");
+define("LEARN_MORE2","Teraz s revolučným<br>serverovým systémom, úplne novou<br>grafikou <br>Tento svet je boží!");
+define("COMUNITY","Komunita");
+define("BECOME_COMUNITY","Staňte sa súčasťou našej komunity už teraz!");
+define("BECOME_COMUNITY2","Staňte sa súčasťou jednej z<br>najväčších herných<br>komunít na<br>svete.");
+define("NEWS","Novinky");
+define("SCREENSHOTS","Snímky obrazovky");
 define("FAQ","FAQ");
-define("SPIELREGELN","Rules");
-define("AGB","Terms and Conditions");
-define("LEARN1","Upgrade your fields and mines to increase your resource production. You will need resources to construct buildings and train soldiers.");
-define("LEARN2","Construct and expand the buildings in your village. Buildings improve your overall infrastructure, increase your resource production and allow you to research, train and upgrade your troops.");
-define("LEARN3","View and interact with your surroundings. You can make new friends or new enemies, make use of the nearby oases and observe as your empire grows and becomes stronger.");
-define("LEARN4","Follow your improvement and success and compare yourself to other players. Look at the Top 10 rankings and fight to win a weekly medal.");
-define("LEARN5","Receive detailed reports about your adventures, trades and battles. Don't forget to check the brand new reports about the happenings taking place in your surroundings.");
-define("LEARN6","Exchange information and conduct diplomacy with other players. Always remember that communication is the key to winning new friends and solving old conflicts.");
-define("LOGIN_TO","Log in to ". SERVER_NAME);
-define("REGIN_TO","Register in ". SERVER_NAME);
-define("P_ONLINE","Players online: ");
-define("P_TOTAL","Players in total: ");
-define("CHOOSE","Please choose a server.");
-define("STARTED"," The server started ". round((time()-COMMENCE)/86400) ." days ago.");
+define("SPIELREGELN","Pravidlá");
+define("AGB","Zmluvné podmienky");
+define("LEARN1","Vylepšite svoje polia a bane, aby ste zvýšili produkciu surovín. Budete potrebovať zdroje na stavbu budov a výcvik vojakov.");
+define("LEARN2","Postavte a rozšírte budovy vo svojej dedine. Budovy zlepšujú vašu celkovú infraštruktúru, zvyšujú produkciu surovín a umožňujú vám skúmať, cvičiť a vylepšovať svoje jednotky.");
+define("LEARN3","Zobrazujte a interagujte so svojím okolím. Môžete si nájsť nových priateľov alebo nových nepriateľov, využívať blízke oázy a pozorovať, ako vaša ríša rastie a silnie.");
+define("LEARN4","Sledujte svoje zlepšenie a úspechy a porovnajte sa s ostatnými hráčmi. Pozrite si Top 10 rebríčkov a bojujte o zisk týždennej medaily.");
+define("LEARN5","Dostávajte podrobné správy o svojich dobrodružstvách, obchodoch a bitkách. Nezabudnite si pozrieť úplne nové správy o dianí vo vašom okolí.");
+define("LEARN6","Vymieňajte si informácie a veďte diplomaciu s ostatnými hráčmi. Vždy pamätajte, že komunikácia je kľúčom k získavaniu nových priateľov a riešeniu starých konfliktov.");
+define("LOGIN_TO","Prihláste sa do ". SERVER_NAME);
+define("REGIN_TO","Zaregistrujte sa na ". SERVER_NAME);
+define("P_ONLINE","Hráči online: ");
+define("P_TOTAL","Hráčov celkom: ");
+define("CHOOSE","Vyberte server.");
+define("STARTED"," Server sa spustil pred ". round((time()-COMMENCE)/86400) ." dňami.");
 
 //ANMELDEN.php
-define("NICKNAME","Nickname");
+define("NICKNAME","Prezývka");
 define("EMAIL","Email");
-define("PASSWORD","Password");
-define("ROMANS","Romans");
-define("TEUTONS","Teutons");
-define("GAULS","Gauls");
-define("NW","North West");
-define("NE","North East");
-define("SW","South West");
-define("SE","South East");
-define("RANDOM","random");
-define("ACCEPT_RULES"," I accept the game rules and general terms and conditions.");
-define("ONE_PER_SERVER","Each player may only own ONE account per server.");
-define("BEFORE_REGISTER","Before you register an account you should read the <a href='../anleitung.php' target='_blank'>instructions</a> of Travian ro1 to see the specific advantages and disadvantages of the three tribes.");
-define("BUILDING_UPGRADING","Building:");
-define("HOURS","hours");
+define("PASSWORD","Heslo");
+define("ROMANS","Šlachta");
+define("TEUTONS","Ľud");
+define("GAULS","Zbojníci");
+define("NW","Severozápad");
+define("NE","Severovýchod");
+define("SW","Juhozápad");
+define("SE","Juhovýchod");
+define("RANDOM","náhodný");
+define("ACCEPT_RULES"," Súhlasím s pravidlami hry a všeobecnými obchodnými podmienkami.");
+define("ONE_PER_SERVER","Každý hráč môže vlastniť iba JEDEN účet na server.");
+define("BEFORE_REGISTER","Pred registráciou účtu by ste si mali prečítať <a href='../anleitung.php' target='_blank'>pokyny</a> , aby ste videli špecifické výhody a nevýhody týchto troch kmeňov.");
+define("BUILDING_UPGRADING","Výstavba:");
+define("HOURS","hod.");
 
 
 //ATTACKS ETC.
-define("TROOP_MOVEMENTS","Troop Movements:");
-define("ARRIVING_REINF_TROOPS","Arriving reinforcing troops");
-define("ARRIVING_ATTACKING_TROOPS","Arriving attacker troops");
-define("ARRIVING_REINF_TROOPS_SHORT","Reinf.");
-define("OWN_ATTACKING_TROOPS","Own attacking troops");
-define("ATTACK","Attack");
-define("OWN_REINFORCING_TROOPS","Own reinforcing troops");
-define("TROOPS_DORF","Troops:");
-define("NEWVILLAGE","New vill.");
-define("FOUNDNEWVILLAGE","Founding New village");
-define("UNDERATTACK","The village is under attack");
-define("OASISATTACK","The Oasis is under attack");
-define("OASISATTACKS","Oasis Att.");
-define("RETURNFROM","Return from");
-define("REINFORCEMENTFOR","Reinforcement to");
-define("ATTACK_ON","Attack to");
-define("RAID_ON","Raid to");
-define("SCOUTING","Scouting");
-define("PRISONERS","Prisoners");
-define("PRISONERSIN","Prisoners in");
-define("PRISONERSFROM","Prisoners from");
-define("TROOPS","Troops");
-define("TROOPSFROM","Troops");
-define("BOUNTY","Bounty");
-define("ARRIVAL","Arrival");
-define("CATAPULT_TARGET","Catapult target(s)");
-define("INCOMING_TROOPS","Incoming Troops");
-define("TROOPS_ON_THEIR_WAY","Troops on their way");
-define("OWN_TROOPS","Own troops");
-define("ON","on");
-define("AT","at");
-define("UPKEEP","Upkeep");
-define("SEND_BACK","Send back");
-define("TROOPS_IN_THE_VILLAGE","Troops in the village");
-define("TROOPS_IN_OTHER_VILLAGE","Troops in other village");
-define("TROOPS_IN_OASIS","Troops in oasis");
-define("KILL","Kill");
-define("FROM","From");
-define("SEND_TROOPS","Send troops");
-define("TASKMASTER","Taskmaster");
-define("VILLAGE_OF_THE_ELDERS_TROOPS","village of the elders troops");
+define("TROOP_MOVEMENTS","Pohyby vojsk:");
+define("ARRIVING_REINF_TROOPS","Prichádzajú posilňujúce jednotky");
+define("ARRIVING_ATTACKING_TROOPS","Prichádzajú útočné jednotky");
+define("ARRIVING_REINF_TROOPS_SHORT","Posil.");
+define("OWN_ATTACKING_TROOPS","Vlastné útočné jednotky");
+define("ATTACK","Útok");
+define("OWN_REINFORCING_TROOPS","Vlastné posilňujúce jednotky");
+define("TROOPS_DORF","Vojaci:");
+define("NEWVILLAGE","Nová ded.");
+define("FOUNDNEWVILLAGE","Založenie Novej dediny");
+define("UNDERATTACK","Dedina je pod útokom");
+define("OASISATTACK","Oáza je pod útokom");
+define("OASISATTACKS","Oáza útok");
+define("RETURNFROM","Návrat z");
+define("REINFORCEMENTFOR","Posilnenie do");
+define("ATTACK_ON","Útok na");
+define("RAID_ON","Nájazd na");
+define("SCOUTING","Skauting");
+define("PRISONERS","Väzni");
+define("PRISONERSIN","Väzni v");
+define("PRISONERSFROM","Väzni z");
+define("TROOPS","Vojská");
+define("TROOPSFROM","Vojská");
+define("BOUNTY","Odmena");
+define("ARRIVAL","Príchod");
+define("CATAPULT_TARGET","Cieľ(e) katapultu");
+define("INCOMING_TROOPS","Prichádzajúce jednotky");
+define("TROOPS_ON_THEIR_WAY","Vojaci na ceste");
+define("OWN_TROOPS","Vlastné jednotky");
+define("ON","na");
+define("AT","o");
+define("UPKEEP","Údržba");
+define("SEND_BACK","Poslať späť");
+define("TROOPS_IN_THE_VILLAGE","Vojaci v dedine");
+define("TROOPS_IN_OTHER_VILLAGE","Vojaci v inej dedine");
+define("TROOPS_IN_OASIS","Vojaci v oáze");
+define("KILL","Zabiť");
+define("FROM","Od");
+define("SEND_TROOPS","Pošlite jednotky");
+define("TASKMASTER","Správca úloh");
+define("VILLAGE_OF_THE_ELDERS_TROOPS","dedina starších vojakov");
 
 //SEND TROOP
-define("REINFORCE","Reinforcement");
-define("NORMALATTACK","Normal Attack");
-define("RAID","Raid");
-define("OR","or");
-define("SENDTROOP","Send troops");
-define("TROOP","Troops");
-define("NOTROOP","no troops");
+define("REINFORCE","Posilnenie");
+define("NORMALATTACK","Normálny útok");
+define("RAID","Nájazd");
+define("OR","alebo");
+define("SENDTROOP","Pošlite jednotky");
+define("TROOP","Vojská");
+define("NOTROOP","žiadne jednotky");
 
 //map
-define("DETAIL","Details");
-define("ABANDVALLEY","Abandoned valley");
-define("OCCUPIED","Occupied");
-define("UNOCCUPIED","Unoccupied");
-define("UNOCCUOASIS","Unoccupied oasis");
-define("OCCUOASIS","Occupied oasis");
-define("THERENOINFO","There is no<br>information available.");
-define("LANDDIST","Land distribution");
-define("TRIBE","Tribe");
-define("ALLIANCE","Alliance");
-define("POP","Population");
-define("REPORT","Report");
-define("OPTION","Options");
-define("CENTREMAP","Centre map");
-define("FNEWVILLAGE","Found new village");
-define("CULTUREPOINT","culture points");
-define("BUILDRALLY","build a rally point");
-define("SETTLERSAVAIL","settlers available");
-define("BEGINPRO","beginners protection");
-define("SENDMERC","Send merchant(s)");
-define("BAN","Player is banned");
-define("BUILDMARKET","Build marketplace");
-define("PERHOUR","per hour");
+define("DETAIL","Podrobnosti");
+define("ABANDVALLEY","Opustené údolie");
+define("OCCUPIED","Obsadené");
+define("UNOCCUPIED","Neobsadené");
+define("UNOCCUOASIS","Neobsadená oáza");
+define("OCCUOASIS","Okupovaná oáza");
+define("THERENOINFO","Nie sú dostupné žiadne<br>informácie.");
+define("LANDDIST","Rozdelenie pôdy");
+define("TRIBE","Kmeň");
+define("ALLIANCE","Aliancia");
+define("POP","Populácia");
+define("REPORT","Hlásenia");
+define("OPTION","Možnosti");
+define("CENTREMAP","Centrovať mapu");
+define("FNEWVILLAGE","Našla sa nová dedina");
+define("CULTUREPOINT","kultúrne body");
+define("BUILDRALLY","postavte miesto zhromaždenia");
+define("SETTLERSAVAIL","dostupní osadníci");
+define("BEGINPRO","ochrana pre začiatočníkov");
+define("SENDMERC","Odoslať obchodníka(ov)");
+define("BAN","Hráč má zakázaný prístup");
+define("BUILDMARKET","Vybudovať trhovisko");
+define("PERHOUR","za hodinu");
 define("BONUS","Bonus");
-define("MAP","Map");
+define("MAP","Mapa");
 define("CROPFINDER","Crop Finder");
-define("NORTH","North");
-define("EAST","East");
-define("SOUTH","South");
-define("WEST","West");
+define("NORTH","Sever");
+define("EAST","Východ");
+define("SOUTH","Juh");
+define("WEST","Západ");
 
 //other
-define("VILLAGE","Village");
-define("OASIS","Oasis");
-define("NO_OASIS", "You do not own any oases.");
-define("NO_VILLAGES", "There are no villages.");
-define("PLAYER","Player");
+define("VILLAGE","Dedina");
+define("OASIS","Oáza");
+define("NO_OASIS", "Nevlastníte žiadne oázy.");
+define("NO_VILLAGES", "Nie sú tam žiadne dediny.");
+define("PLAYER","Hráč");
 
 //LOGIN.php
-define("COOKIES","You must have cookies enabled to be able to log in. If you share this computer with other people you should log out after each session for your own safety.");
-define("NAME","Name");
-define("PW_FORGOTTEN","Password forgotten?");
-define("PW_REQUEST","Then you can request a new one which will be sent to your email address.");
-define("PW_GENERATE","Generate new password.");
-define("EMAIL_NOT_VERIFIED","Email not verified!");
-define("EMAIL_FOLLOW","Follow this link to activate your account.");
-define("VERIFY_EMAIL","Verify Email.");
-define("SERVER_STARTS_IN","Server will start in: ");
-define("START_NOW","START NOW");
+define("COOKIES","Aby ste sa mohli prihlásiť, musíte mať povolené súbory cookie. Ak zdieľate tento počítač s inými ľuďmi, mali by ste sa po každej relácii v záujme vlastnej bezpečnosti odhlásiť.");
+define("NAME","Meno");
+define("PW_FORGOTTEN","Zabudli ste heslo?");
+define("PW_REQUEST","Potom môžete požiadať o nové, ktorý vám bude zaslané na vašu e-mailovú adresu.");
+define("PW_GENERATE","Vygenerujte nové heslo.");
+define("EMAIL_NOT_VERIFIED","E-mail nie je overený!");
+define("EMAIL_FOLLOW","Ak chcete aktivovať svoj účet, kliknite na tento odkaz.");
+define("VERIFY_EMAIL","Overiť e-mail.");
+define("SERVER_STARTS_IN","Server sa spustí o: ");
+define("START_NOW","ZAČNITE TERAZ");
 
 
 //404.php
-define("NOTHING_HERE","Nothing here!");
-define("WE_LOOKED","We looked 404 times already but can't find anything");
+define("NOTHING_HERE","Nič tu!");
+define("WE_LOOKED","Hľadali sme už 404-krát, ale nič sme nenašli");
 
 //TIME RELATED
-define("CALCULATED","Calculated in");
-define("SERVER_TIME","Server time:");
+define("CALCULATED","Vypočítané v");
+define("SERVER_TIME","Čas servera:");
 
 //MASSMESSAGE.php
-define("MASS","Message Content");
-define("MASS_SUBJECT","Subject:");
-define("MASS_COLOR","Message color:");
-define("MASS_REQUIRED","All fields required");
-define("MASS_UNITS","Images (units):");
-define("MASS_SHOWHIDE","Show/Hide");
-define("MASS_READ","Read this: after adding smilie, you have to add left or right after number otherwise image will won't work");
-define("MASS_CONFIRM","Confirmation");
-define("MASS_REALLY","Do you really want to send MassIGM?");
-define("MASS_ABORT","Aborting right now");
-define("MASS_SENT","Mass IGM was sent");
+define("MASS","Obsah správy");
+define("MASS_SUBJECT","Predmet:");
+define("MASS_COLOR","Farba správy:");
+define("MASS_REQUIRED","Všetky polia sú povinné");
+define("MASS_UNITS","Obrázky (jednotky):");
+define("MASS_SHOWHIDE","Zobraziť/Skryť");
+define("MASS_READ","Prečítajte si toto: po pridaní smajlíka musíte pridať vľavo alebo vpravo za číslo, inak obrázok nebude fungovať");
+define("MASS_CONFIRM","Potvrdenie");
+define("MASS_REALLY","Naozaj chcete poslať MassIGM?");
+define("MASS_ABORT","Prerušujem práve teraz");
+define("MASS_SENT","Hromadné IGM bolo odoslané");
 
 //BUILDINGS
-define("WOODCUTTER","Woodcutter");
-define("CLAYPIT","Clay Pit");
-define("IRONMINE","Iron Mine");
-define("CROPLAND","Cropland");
+define("WOODCUTTER","Drevorubač");
+define("CLAYPIT","Hlinená jama");
+define("IRONMINE","Železná baňa");
+define("CROPLAND","Úrodná Pôda");
 
-define("SAWMILL","Sawmill");
-define("SAWMILL_DESC","Here wood delivered by your Woodcutters is processed. Based on its level your sawmill can increase your wood production by up to 25 percent.");
-define("CURRENT_WOOD_BONUS","Current wood bonus:");
-define("WOOD_BONUS_LEVEL","Wood bonus at level");
-define("MAX_LEVEL","Building already at max level");
+define("PÍLA","Píla");
+define("SAWMILL_DESC","Tu sa spracováva drevo dodané vašimi drevorubačmi. Na základe jeho úrovne môže vaša píla zvýšiť produkciu dreva až o 25 percent.");
+define("CURRENT_WOOD_BONUS","Aktuálny bonus na drevo:");
+define("WOOD_BONUS_LEVEL","Bonus z dreva na úrovni");
+define("MAX_LEVEL","Budova je už na maximálnej úrovni");
 define("PERCENT","Percent");
 
-define("BRICKYARD","Brickyard");
-define("CURRENT_CLAY_BONUS","Current clay bonus:");
-define("CLAY_BONUS_LEVEL","Clay bonus at level");
-define("BRICKYARD_DESC","Here clay is processed into bricks. Based on its level your Brickyard can increase your clay production by up to 25 percent.");
+define("BRICKYARD","Tehelňa");
+define("CURRENT_CLAY_BONUS","Aktuálny hlinený bonus:");
+define("CLAY_BONUS_LEVEL","Hlinený bonus na úrovni");
+define("BRICKYARD_DESC","Tu sa hlina spracováva na tehly. Na základe jej úrovne môže vaša tehelňa zvýšiť produkciu hliny až o 25 percent.");
 
-define("IRONFOUNDRY","Iron Foundry");
-define("CURRENT_IRON_BONUS","Current iron bonus:");
-define("IRON_BONUS_LEVEL","Iron bonus at level");
-define("IRONFOUNDRY_DESC","Iron is smelted here. Based on its level your Iron Foundry can increase your iron production by up to 25 percent.");
+define("IRONFOUNDRY","Zlieváreň železa");
+define("CURRENT_IRON_BONUS","Aktuálny bonus za železo:");
+define("IRON_BONUS_LEVEL","Železný bonus na úrovni");
+define("IRONFOUNDRY_DESC","Taví sa tu železo. Na základe jeho úrovne môže vaša zlieváreň železa zvýšiť produkciu železa až o 25 percent.");
 
-define("GRAINMILL","Grain Mill");
-define("CURRENT_CROP_BONUS","Current crop bonus:");
-define("CROP_BONUS_LEVEL","Crop bonus at level");
-define("GRAINMILL_DESC","Here your grain is milled in order to produce flour. Based on its level your grain mill can increase your crop production by up to 25 percent.");
+define("GRAINMILL","Mlyn na obilie");
+define("CURRENT_CROP_BONUS","Aktuálny bonus za plodinu:");
+define("CROP_BONUS_LEVEL","Bonus za úrodu na úrovni");
+define("GRAINMILL_DESC","Tu sa vaše obilie melie na výrobu múky. Na základe jeho úrovne môže váš obilný mlyn zvýšiť produkciu plodín až o 25 percent.");
 
-define("BAKERY","Bakery");
-define("BAKERY_DESC","Here the flour produced in your mill is used to bake bread. In addition with the Grain Mill the increase in crop production can go up to 50 percent.");
+define("BAKERY","Pekáreň");
+define("BAKERY_DESC","Tu sa múka vyrobená vo vašom mlyne používa na pečenie chleba. Okrem toho s mlynom na obilie môže nárast produkcie plodín dosiahnuť až 50 percent.");
 
-define("WAREHOUSE","Warehouse");
-define("CURRENT_CAPACITY","Current capacity:");
-define("CAPACITY_LEVEL","Capacity at level");
-define("RESOURCE_UNITS","Resource units");
-define("WAREHOUSE_DESC","The resources wood, clay and iron are stored in your Warehouse. By increasing its level you increase your Warehouse's capacity.");
+define("WAREHOUSE","Sklad");
+define("CURRENT_CAPACITY","Aktuálna kapacita:");
+define("CAPACITY_LEVEL","Kapacita na úrovni");
+define("RESOURCE_UNITS","Jednotky zdrojov");
+define("WAREHOUSE_DESC","Suroviny drevo, hlina a železo sú uložené vo vašom sklade. Zvýšením jeho úrovne zvyšujete kapacitu svojho skladu.");
 
-define("GRANARY","Granary");
-define("CROP_UNITS","Crop units");
-define("GRANARY_DESC","Crop produced by your farms is stored in the Granary. By increasing its level you increase the Granary's capacity.");
+define("GRANARY","Sýpka");
+define("CROP_UNITS","jednotky");
+define("GRANARY_DESC","Úroda vyprodukovaná na vašich farmách je uložená v sýpke. Zvýšením úrovne zvyšujete kapacitu sýpky.");
 
-define("BLACKSMITH","Blacksmith");
-define("ACTION","Action");
+define("BLACKSMITH","Kováč");
+define("ACTION","Akcia");
 define("UPGRADE","Upgrade");
-define("UPGRADE_IN_PROGRESS","Upgrade in<br>progress");
-define("UPGRADE_BLACKSMITH","Upgrade<br>blacksmith");
-define("UPGRADES_COMMENCE_BLACKSMITH","Upgrades can commence when blacksmith is completed.");
-define("MAXIMUM_LEVEL","Maximum<br>level");
-define("EXPAND_WAREHOUSE","Expand<br>warehouse");
-define("EXPAND_GRANARY","Expand<br>granary");
-define("ENOUGH_RESOURCES","Enough resources");
-define("CROP_NEGATIVE ","Crop production is negative so you will never reach the required resources");
-define("TOO_FEW_RESOURCES","Too few<br>resources");
+define("UPGRADE_IN_PROGRESS","Aktualizácia<br>prebieha");
+define("UPGRADE_BLACKSMITH","Upgrade<br>kováč");
+define("UPGRADES_COMMENCE_BLACKSMITH","Aktualizácie môžu začať po dokončení kováčstva.");
+define("MAXIMUM_LEVEL","Maximálna<br>úroveň");
+define("EXPAND_WAREHOUSE","Rozbaliť<br>sklad");
+define("EXPAND_GRANARY","Rozbaliť<br>sýpka");
+define("ENOUGH_RESOURCES","Čas dostupných zdrojov");
+define("CROP_NEGATIVE ","Produkcia plodín je negatívna, takže nikdy nedosiahnete požadované zdroje");
+define("TOO_FEW_RESOURCES","Príliš málo<br>zdrojov");
 define("UPGRADING","Upgrading");
-define("DURATION","Duration");
+define("DURATION","Trvanie");
 define("COMPLETE","Complete");
-define("BLACKSMITH_DESC","In the blacksmith's melting furnaces your warriors' weapons are enhanced. By increasing its level you can order the fabrication of even better weapons.");
+define("BLACKSMITH_DESC","V kováčskych taviacich peciach sú vylepšené zbrane vašich bojovníkov. Zvýšením jej úrovne si môžete objednať výrobu ešte lepších zbraní.");
 
-define("ARMOURY","Armoury");
-define("UPGRADE_ARMOURY","Upgrade<br>Armoury");
-define("UPGRADES_COMMENCE_ARMOURY","Upgrades can commence when armoury is completed.");
-define("ARMOURY_DESC","In the armoury's melting furnaces your warriors' armour is enhanced. By increasing its level you can order the fabrication of even better armour.");
+define("ARMOURY","Zbrojnica");
+define("UPGRADE_ARMOURY","Vylepšenie<br>zbrojnice");
+define("UPGRADES_COMMENCE_ARMOURY","Vylepšenia môžu začať, keď je dokončená zbrojnica.");
+define("ARMOURY_DESC","V taviacich peciach zbrojnice je brnenie vašich bojovníkov vylepšené. Zvýšením jeho úrovne si môžete objednať výrobu ešte lepšieho brnenia.");
 
-define("TOURNAMENTSQUARE","Tournament Square");
-define("CURRENT_SPEED","Current speed bonus:");
-define("SPEED_LEVEL","Speed bonus at level");
-define("TOURNAMENTSQUARE_DESC","At the Tournament Square your troops can train their stamina. The further the building is upgraded the faster your troops are beyond a minimum distance of ".TS_THRESHOLD."  squares.");
+define("TOURNAMENTSQUARE","Turnajové námestie");
+define("CURRENT_SPEED","Aktuálny rýchlostný bonus:");
+define("SPEED_LEVEL","Rýchlostný bonus na úrovni");
+define("TOURNAMENTSQUARE_DESC","Na turnajovom námestí môžu vaši vojaci trénovať svoju výdrž. Čím ďalej je budova modernizovaná, tým rýchlejšie sú vaše jednotky za minimálnou vzdialenosťou polí ".TS_THRESHOLD.".");
 
-define("MAINBUILDING","Main Building");
-define("CURRENT_CONSTRUCTION_TIME","Current construction time:");
-define("CONSTRUCTION_TIME_LEVEL","Construction time at level");
-define("DEMOLITION_BUILDING","Demolition of the building:</h2><p>If you no longer need a building, you can order the demolition of the building.</p>");
-define("DEMOLISH","Demolish");
-define("DEMOLITION_OF","Demolition of ");
-define("MAINBUILDING_DESC","In the main building the village's master builders live. The higher its level the faster your master builders complete the construction of new buildings.");
+define("MAINBUILDING","Hlavná budova");
+define("CURRENT_CONSTRUCTION_TIME","Aktuálny čas výstavby:");
+define("CONSTRUCTION_TIME_LEVEL","Čas výstavby na úroven");
+define("DEMOLITION_BUILDING","Búranie budovy:</h2><p>Ak už budovu nepotrebujete, môžete si objednať zbúranie budovy.</p>");
+define("DEMOLOVAŤ","Zbúrať");
+define("DEMOLITION_OF","Demolácia ");
+define("MAINBUILDING_DESC","V hlavnej budove bývajú stavitelia obce. Čím vyššia je jeho úroveň, tým rýchlejšie vaši stavitelia dokončia stavbu nových budov.");
 
-define("RALLYPOINT","Rally Point");
-define("RALLYPOINT_COMMENCE","Troops movement will be displayed when the ".RALLYPOINT." is completed");
-define("OVERVIEW","Overview");
-define("REINFORCEMENT","Reinforcement");
-define("EVASION_SETTINGS","evasion settings");
-define("SEND_TROOPS_AWAY_MAX","Send troops away a maximum of");
-define("TIMES","times");
-define("PER_EVASION","per evasion");
-define("RALLYPOINT_DESC","Your village's troops meet here. From here you can send them out to conquer, raid or reinforce other villages.");
+define("RALLYPOINT","Zhromaždisko");
+define("RALLYPOINT_COMMENCE","Posun jednotiek sa zobrazí po dokončení ".RALLYPOINT."");
+define("OVERVIEW","Prehľad");
+define("REINFORCEMENT","Posilnenie");
+define("EVASION_SETTINGS","nastavenia vyhýbania sa");
+define("SEND_TROOPS_AWAY_MAX","Poslať jednotky preč maximálne");
+define("TIMES","čas");
+define("PER_EVASION","za únik");
+define("RALLYPOINT_DESC","Tu sa stretávajú jednotky vašej dediny. Odtiaľto ich môžete poslať, aby dobyli, prepadli alebo posilnili iné dediny.");
 
-define("MARKETPLACE","Marketplace");
-define("MERCHANT","Merchants");
-define("OR_","or");
-define("GO","go");
-define("UNITS_OF_RESOURCE","units of resource");
-define("MERCHANT_CARRY","Each merchant can carry");
-define("MERCHANT_COMING","Merchants coming");
-define("TRANSPORT_FROM","Transport from");
-define("ARRIVAL_IN","Arrival in");
-define("NO_COORDINATES_SELECTED","No Coordinates selected");
-define("CANNOT_SEND_RESOURCES","You cannot send resources to the same village");
-define("BANNED_CANNOT_SEND_RESOURCES","Player is Banned. You cannot send resources to him");
-define("RESOURCES_NO_SELECTED","Resources not selected");
-define("ENTER_COORDINATES","Enter coordinates or village name");
-define("TOO_FEW_MERCHANTS","Too few merchants");
-define("OWN_MERCHANTS_ONWAY","Own merchants on the way");
-define("MERCHANTS_RETURNING","Merchants returning");
-define("TRANSPORT_TO","Transport to");
-define("I_AN_SEARCHING","I'm searching");
-define("I_AN_OFFERING","I'm offering");
-define("OFFERS_MARKETPLACE","Offers at the marketplace");
-define("NO_AVAILABLE_OFFERS","No offers at the marketplace");
-define("OFFERED_TO_ME","Offered<br>to me");
-define("WANTED_TO_ME","Wanted<br>from me");
-define("NOT_ENOUGH_MERCHANTS","Not Enough Merchant");
-define("ACCEP_OFFER","Accept offer");
-define("NO_AVALIBLE_OFFERS","There are no avaliable offers on the market");
-define("SEARCHING","Searching");
-define("OFFERING","Offering");
-define("MAX_TIME_TRANSPORT","max. time of transport");
-define("OWN_ALLIANCE_ONLY","own alliance only");
-define("INVALID_OFFER","Invalid offer");
-define("INVALID_MERCHANTS_REPETITION","Invalid merchants repetition rate");
-define("USER_ON_VACATION","User is on vacation mode");
-define("NOT_ENOUGH_RESOURCES","Not enough resources");
-define("OFFER","Offer");
-define("SEARCH","Search");
-define("OWN_OFFERS","Own offers");
-define("ALL","All");
-define("NPC_TRADE","NPC Trade");
-define("SUM","Sum");
-define("REST","Rest");
-define("TRADE_RESOURCES","Trade resources at (step 2 of 2");
-define("DISTRIBUTE_RESOURCES","Distribute resources at (step 1 of 2)");
+define("MARKETPLACE","Trhovisko");
+define("MERCHANT","Obchodníci");
+define("OR_","alebo");
+define("GO","ísť");
+define("UNITS_OF_RESOURCE","jednotky zdroja");
+define("MERCHANT_CARRY","Každý obchodník môže prevážať");
+define("MERCHANT_COMING","Prichádzajú obchodníci");
+define("TRANSPORT_FROM","Doprava z");
+define("ARRIVAL_IN","Príchod o");
+define("NO_COORDINATES_SELECTED","Nie sú vybraté žiadne súradnice");
+define("CANNOT_SEND_RESOURCES","Nemôžete posielať zdroje do tej istej dediny");
+define("BANNED_CANNOT_SEND_RESOURCES","Hráč má zakázaný prístup. Nemôžete mu posielať zdroje");
+define("RESOURCES_NO_SELECTED","Zdroje nie sú vybraté");
+define("ENTER_COORDINATES","Zadajte súradnice alebo názov dediny");
+define("TOO_FEW_MERCHANTS","Príliš málo obchodníkov");
+define("OWN_MERCHANTS_ONWAY","Vlastní obchodníci na ceste");
+define("MERCHANTS_RETURNING","Obchodníci sa vracajú");
+define("TRANSPORT_TO","Doprava do");
+define("I_AN_SEARCHING","Hľadám");
+define("I_AN_OFFERING","Ponúkam");
+define("OFFERS_MARKETPLACE","Ponuky na trhovisku");
+define("NO_AVAILABLE_OFFERS","Žiadne ponuky na trhovisku");
+define("OFFERED_TO_ME","Ponúknuté<br>mne");
+define("WANTED_TO_ME","Hľadám<br>odo mňa");
+define("NOT_ENOUGH_MERCHANTS","Nedostatok obchodníka");
+define("ACCEP_OFFER","Prijať ponuku");
+define("NO_AVALIBLE_OFFERS","Na trhu nie sú dostupné žiadne ponuky");
+define("HĽADÁVANIE","Hľadanie");
+define("PONUKA","Ponuka");
+define("MAX_TIME_TRANSPORT","max. čas prepravy");
+define("OWN_ALLIANCE_ONLY","iba vlastná aliancia");
+define("INVALID_OFFER","Neplatná ponuka");
+define("INVALID_MERCHANTS_REPETITION","Neplatný počet opakovaní obchodníkov");
+define("USER_ON_VACATION","Používateľ je v dovolenkovom režime");
+define("NOT_ENOUGH_RESOURCES","Nie je dostatok zdrojov");
+define("PONUKA","Ponuka");
+define("HĽADAŤ","Hľadať");
+define("OWN_OFFERS","Vlastné ponuky");
+
+define("ALL","Všetko");
+define("NPC_TRADE","NPC obchod");
+define("SÚČET","Súčet");
+define("ODPOČINOK","Odpočinok");
+define("TRADE_RESOURCES","Obchodujte zdroje na (krok 2 z 2");
+define("DISTRIBUTE_RESOURCES","Distribuujte zdroje v (krok 1 z 2)");
 define("OF","of");
-define("NPC_COMPLETED","NPC completed");
-define("BACK_BUILDING","Back to building");
-define("YOU_CAN_NAT_NPC_WW","You can't use NPC trade in WW village.");
-define("NPC_TRADING","NPC trading");
-define("SEND_RESOURCES","Send Resources");
-define("BUY","Buy");
-define("TRADE_ROUTES","Trade routes");
-define("DESCRIPTION","Description");
-define("TIME_LEFT","Time left");
+define("NPC_COMPLETED","NPC complete");
+define("BACK_BUILDING","Späť do budovy");
+define("YOU_CAN_NAT_NPC_WW","V dedine WW nemôžete používať obchod s NPC.");
+define("NPC_TRADING","NPC obchodovanie");
+define("SEND_RESOURCES","Odoslať zdroje");
+define("KÚPIŤ","Kúpiť");
+define("TRADE_ROUTES","Obchodné cesty");
+define("DESCRIPTION","Popis");
+define("TIME_LEFT","Zostávajúci čas");
 define("START","Start");
-define("NO_TRADE_ROUTES","No active trade routes");
-define("TRADE_ROUTE_TO","Trade route to");
-define("CHECKED","checked");
-define("DAYS","Days");
+define("NO_TRADE_ROUTES","Žiadne aktívne obchodné cesty");
+define("TRADE_ROUTE_TO","Obchodná cesta do");
+define("KONTROLOVANÉ","zaškrtnuté");
+define("DNI","Dni");
 define("EXTEND","Extend");
-define("EDIT","Edit");
-define("EXTEND_TRADE_ROUTES","Extend the trade route by <b>7</b> days for");
-define("CREATE_TRADE_ROUTES","Create new trade route");
-define("DELIVERIES","Deliveries");
-define("START_TIME_TRADE","Start time");
-define("CREATE_TRADE_ROUTE","Create trade route");
-define("TARGET_VILLAGE","Target village");
-define("EDIT_TRADE_ROUTES","Edit trade route");
-define("TRADE_ROUTES_DESC","Trade route allows you to set up routes for your merchant that he will walk every day at a certain hour. <br /><br /> Standard this holds on for <b>7</b> days, but you can extend it with <b>7</b> days for the cost of");
-define("NPC_TRADE_DESC","With the NPC merchant you can distribute the resources in your warehouse as you desire. <br /><br /> The first line shows the current stock. In the second line you can choose another distribution. The third line shows the difference between the old and new stock.");
-define("MARKETPLACE_DESC","At the Marketplace you can trade resources with other players. The higher its level, the more resources can be transported at the same time.");
+define("UPRAVIŤ","Upraviť");
+define("EXTEND_TRADE_ROUTES","Predĺžte obchodnú cestu o <b>7</b> dní na");
+define("CREATE_TRADE_ROUTES","Vytvoriť novú obchodnú cestu");
+define("DORUČENIA","Dodávky");
+define("START_TIME_TRADE","Čas začiatku");
+define("CREATE_TRADE_ROUTE","Vytvoriť obchodnú cestu");
+define("TARGET_DILLAGE","Cieľová dedina");
+define("EDIT_TRADE_ROUTES","Upraviť obchodnú cestu");
+define("TRADE_ROUTES_DESC","Obchodná cesta vám umožňuje nastaviť pre vášho obchodníka trasy, po ktorých bude chodiť každý deň v určitú hodinu. <br /><br /> Štandardne to platí <b>7</b> dní, ale môžete to predĺžiť o <b>7</b> dní za cenu");
+define("NPC_TRADE_DESC","S obchodníkom NPC môžete distribuovať zdroje vo vašom sklade podľa vlastného uváženia. <br /><br /> Prvý riadok zobrazuje aktuálne zásoby. V druhom riadku si môžete vybrať inú distribúciu. Tretí riadok zobrazuje rozdiel medzi starou a novou zásobou.");
+define("MARKETPLACE_DESC","Na trhovisku môžete obchodovať so zdrojmi s ostatnými hráčmi. Čím vyššia je jeho úroveň, tým viac zdrojov je možné prepravovať súčasne.");
 
-define("EMBASSY","Embassy");
+define("EMBASSY","Veľvyslanectvo");
 define("TAG","Tag");
-define("TO_THE_ALLIANCE","to the alliance");
-define("JOIN_ALLIANCE","join alliance");
-define("REFUSE","refuse");
-define("ACCEPT","accept");
-define("NO_INVITATIONS","There are no invitations available.");
-define("NO_CREATE_ALLIANCE","Banned player can't create an alliance.");
-define("FOUND_ALLIANCE","found alliance");
-define("EMBASSY_DESC","The embassy is a place for diplomats. The higher its level the more options the king gains.");
+define("TO_THE_ALLIANCE","do aliancie");
+define("JOIN_ALLIANCE","pripoj sa k aliancii");
+define("REFUSE","odmietnuť");
+define("ACCEPT","prijať");
+define("NO_INVITATIONS","Nie sú dostupné žiadne pozvánky.");
+define("NO_CREATE_ALLIANCE","Banovaný hráč nemôže vytvoriť alianciu.");
+define("FOUND_ALLIANCE","nájdená aliancia");
+define("EMBASSY_DESC","Veľvyslanectvo je miestom pre diplomatov. Čím vyššia je jeho úroveň, tým viac možností kráľ získa.");
 
-define("BARRACKS","Barracks");
-define("QUANTITY","Quantity");
+define("BARRACKS","Kasárne");
+define("QUANTITY","Množstvo");
 define("MAX","Max");
-define("TRAINING","Training");
-define("FINISHED","Finished");
-define("UNIT_FINISHED","The next unit will be finished in");
-define("AVAILABLE","Available");
-define("TRAINING_COMMENCE_BARRACKS","Training can commence when barracks is completed.");
-define("BARRACKS_DESC","All foot soldiers are trained in the barracks. The higher the level of the barracks, the faster the troops are trained.");
+define("TRAINING","Výcvik");
+define("FINISHED","Dokončené");
+define("UNIT_FINISHED","Ďalšia jednotka bude dokončená v");
+define("AVAILABLE","Dostupné");
+define("TRAINING_COMMENCE_BARRACKS","Výcvik môže začať po dokončení kasární.");
+define("BARRACKS_DESC","Všetci pešiaci sú cvičení v kasárňach. Čím vyššia je úroveň kasární, tým rýchlejšie sa cvičia jednotky.");
 
-define("STABLE","Stable");
-define("AVAILABLE_ACADEMY","No units available. Research at academy");
-define("TRAINING_COMMENCE_STABLE","Training can commence when stable is completed.");
-define("STABLE_DESC","Cavalry can be trained in the stable. The higher its level the faster the troops are trained.");
+define("STABLE","Stajňa");
+define("AVAILABLE_ACADEMY","Nie sú k dispozícii žiadne jednotky. Výskum na akadémii");
+define("TRAINING_COMMENCE_STABLE","Tréning sa môže začať po dokončení stabilného.");
+define("STABLE_DESC","Kavaléria môže byť trénovaná v stajni. Čím vyššia je jej úroveň, tým rýchlejšie sú vojaci vycvičení.");
 
-define("WORKSHOP","Workshop");
-define("TRAINING_COMMENCE_WORKSHOP","Training can commence when workshop is completed.");
-define("WORKSHOP_DESC","Siege engines like catapults and rams can be built in the workshop. The higher its level the faster the units are produced.");
+define("WORKSHOP","Dielna");
+define("TRAINING_COMMENCE_WORKSHOP","Tréning môže začať po skončení workshopu.");
+define("WORKSHOP_DESC","Obliehacie motory ako katapulty a barany je možné postaviť v dielni. Čím vyššia je úroveň, tým rýchlejšie sa jednotky vyrábajú.");
 
-define("ACADEMY","Academy");
-define("RESEARCH_AVAILABLE","There are no researches available");
-define("RESEARCH_COMMENCE_ACADEMY","Research can commence when academy is completed.");
-define("RESEARCH","Research");
-define("EXPAND_WAREHOUSE1","Expand warehouse");
-define("EXPAND_GRANARY1","Expand granary");
-define("RESEARCH_IN_PROGRESS","Research in<br>progress");
-define("RESEARCHING","Researching");
-define("PREREQUISITES","Prerequisites");
-define("SHOW_MORE","show more");
-define("HIDE_MORE","hide more");
-define("ACADEMY_DESC","In the academy new unit types can be researched. By increasing its level you can order the research of better units.");
+define("ACADEMY","Akadémia");
+define("RESEARCH_AVAILABLE","Nie sú dostupné žiadne prieskumy");
+define("RESEARCH_COMMENCE_ACADEMY","Výskum môže začať po dokončení akadémie.");
+define("RESEARCH","Výskum");
+define("EXPAND_WAREHOUSE1","Rozbaliť sklad");
+define("EXPAND_GRANARY1","Rozbalte sýpku");
+define("RESEARCH_IN_PROGRESS","Výskum v<br>prebieha");
+define("RESEARCHING","Výskum");
+define("PREREQUISITES","Požiadavky");
+define("SHOW_MORE","ukázať viac");
+define("HIDE_MORE","skrývať viac");
+define("ACADEMY_DESC","V akadémii možno skúmať nové typy jednotiek. Zvýšením jej úrovne si môžete objednať výskum lepších jednotiek.");
 
-define("CRANNY","Cranny");
-define("CURRENT_HIDDEN_UNITS","Currently hidden units per resource:");
-define("HIDDEN_UNITS_LEVEL","Hidden units per resource at level");
-define("UNITS","units");
-define("CRANNY_DESC","The cranny is used to hide some of your resources when the village is attacked. These resources cannot be stolen.");
+define("CRANNY","Úkryt");
+define("CURRENT_HIDDEN_UNITS","Momentálne skryté jednotky na zdroj:");
+define("HIDDEN_UNITS_LEVEL","Skryté jednotky na zdroj na úrovni");
+define("UNITS","jednotky");
+define("CRANNY_DESC","Úkryt sa používa na ukrytie niektorých vašich zdrojov, keď je dedina napadnutá. Tieto zdroje nemožno ukradnúť.");
 
-define("TOWNHALL","Town Hall");
+define("TOWNHALL","Radnica");
 define("CELEBRATIONS_COMMENCE_TOWNHALL","Celebrations can commence when the town hall is completed.");
 define("GREAT_CELEBRATIONS","Great celebration");
 define("CULTURE_POINTS","Culture points");
@@ -972,8 +973,8 @@ define("CELEBRATIONS_IN_PROGRESS","Celebration<br />in progress");
 define("CELEBRATIONS","Celebrations");
 define("TOWNHALL_DESC","You can hold pompous celebrations in the Town Hall. Such a celebration increases your culture points. Building up your Town Hall to a higher level will decrease the length of the celebration.");
 
-define("RESIDENCE","Residence");
-define("CAPITAL","This is your capital");
+define("RESIDENCE","Rezidencia");
+define("CAPITAL","Toto je váš kapitál");
 define("RESIDENCE_TRAIN_DESC","In order to found a new village you need a level 10 or 20 residence and 3 settlers. In order to conquer a new village you need a level 10 or 20 residence and a senator, chief or chieftain.");
 define("PRODUCTION_POINTS","Production of this village:");
 define("PRODUCTION_ALL_POINTS","Production of all villages:");
@@ -984,35 +985,35 @@ define("POINTS","points");
 define("INHABITANTS","Inhabitants");
 define("COORDINATES","Coordinates");
 define("EXPANSION","Expansion");
-define("TRAIN","Train");
-define("DATE","Date");
+define("TRAIN","Výcvik");
+define("DATE","Dátum");
 define("CONQUERED_BY_VILLAGE","Villages founded or conquered by this village");
 define("NONE_CONQUERED_BY_VILLAGE","No other village has been founded or conquered by this village yet.");
 define("RESIDENCE_CULTURE_DESC","In order to extend your empire you need culture points. These culture points increase in the course of time and do so faster as your building levels increase.");
 define("RESIDENCE_LOYALTY_DESC","By attacking with senators, chiefs or chieftains a village's loyalty can be brought down. If it reaches zero, the village joins the realm of the attacker. The loyalty of this village is currently at ");
-define("RESIDENCE_DESC","The residence is a small palace, where the king or queen lives when (s)he visits the village. The residence protects the village against enemies who want to conquer it.");
+define("RESIDENCE_DESC","Rezidencia je malý palác, v ktorom býva kráľ alebo kráľovná, keď navštívi dedinu. Sídlo chráni dedinu pred nepriateľmi, ktorí ju chcú dobyť.");
 
-define("PALACE","Palace");
-define("PALACE_CONSTRUCTION","Palace under construction");
-define("PALACE_TRAIN_DESC","In order to found a new village you need a level 10, 15 or 20 palace and 3 settlers. In order to conquer a new village you need a level 10, 15 or 20 palace and a senator, chief or chieftain.");
-define("CHANGE_CAPITAL","change capital");
-define("SECURITY_CHANGE_CAPITAL","Are you sure, that you want to change your capital?<br /><b>You can\'t undo this!</b><br />For security you must enter your password to confirm:<br />");
-define("PALACE_DESC","The king or queen of the empire lives in the palace. Only one palace can exist in your realm at a time. You need a palace in order to proclaim a village to be your capital.");
+define("PALACE","Palác");
+define("PALACE_CONSTRUCTION","Palác vo výstavbe");
+define("PALACE_TRAIN_DESC","Na založenie novej dediny potrebujete palác úrovne 10, 15 alebo 20 a 3 osadníkov. Na dobytie novej dediny potrebujete palác úrovne 10, 15 alebo 20 a senátora, náčelníka alebo náčelník.");
+define("CHANGE_CAPITAL","zmeniť kapitál");
+define("SECURITY_CHANGE_CAPITAL","Ste si istý, že chcete zmeniť svoj kapitál?<br /><b>Nemôžete to vrátiť späť!</b><br />Z bezpečnostných dôvodov musíte zadať svoje heslo do potvrdiť:<br />");
+define("PALACE_DESC","V paláci žije kráľ alebo kráľovná impéria. Vo vašej ríši môže súčasne existovať iba jeden palác. Ak chcete vyhlásiť dedinu za hlavné mesto, potrebujete palác.");
 
-define("TREASURY","Treasury");
+define("TREASURY","Pokladnica");
 define("TREASURY_COMMENCE","Artifacts can be viewed when treasury is completed.");
 define("ARTIFACTS_AREA","Artefacts in your area");
 define("NO_ARTIFACTS_AREA","There are no artefacts in your area.");
 define("OWN_ARTIFACTS","Own artefacts");
-define("CONQUERED","Conquered");
+define("CONQUERED","Vybojované");
 define("DISTANCE","Distance");
-define("EFFECT","Effect");
-define("ACCOUNT","Account");
+define("EFFECT","Účinok");
+define("ACCOUNT","Účet");
 define("SMALL_ARTIFACTS","Small artefacts");
 define("LARGE_ARTIFACTS","Large artefacts");
 define("NO_ARTIFACTS","There are no artefacts.");
 define("ANY_ARTIFACTS","You do not own any artefacts.");
-define("OWNER","Owner");
+define("OWNER","Vlastník");
 define("AREA_EFFECT","Area of effect");
 define("VILLAGE_EFFECT","Village effect");
 define("ACCOUNT_EFFECT","Account effect");
@@ -1040,7 +1041,7 @@ define("NO_WW","There are no Wonders of the World");
 define("NO_PREVIOUS_OWNERS","There are no previous owners.");
 define("TREASURY_DESC","The riches of your empire are kept in the treasury. The treasury has room for one treasure. After you have captured an artefact it takes 24 hours on a normal server or 12 hours on a thrice speed server to be effective.");
 
-define("TRADEOFFICE","Trade Office");
+define("TRADEOFFICE","Obchodná kancelária");
 define("CURRENT_MERCHANT","Current merchant load:");
 define("MERCHANT_LEVEL","Merchant load at level");
 define("TRADEOFFICE_DESC","In the trade office the merchants' carts get improved and equipped with powerful horses. The higher its level the more your merchants are able to carry.");
@@ -1053,62 +1054,62 @@ define("GREATSTABLE","Great Stable");
 define("TRAINING_COMMENCE_GREATSTABLE","Training can commence when great stable is completed.");
 define("GREATSTABLE_DESC","Cavalry can be trained in the great stable. The higher its level the faster the troops are trained.");
 
-define("CITYWALL","City Wall");
+define("CITYWALL","Mestský múr");
 define("DEFENCE_NOW","Defence Bonus now:");
 define("DEFENCE_LEVEL","Defence Bonus at level");
-define("CITYWALL_DESC","By building a City Wall you can protect your village against the barbarian hordes of your enemies. The higher the wall's level, the higher the bonus given to your forces' defence.");
+define("CITYWALL_DESC","Postavením mestského múru môžete ochrániť svoju dedinu pred barbarskými hordami svojich nepriateľov. Čím vyššia je úroveň steny, tým vyšší je bonus na obranu vašich síl.");
 
-define("EARTHWALL","Earth Wall");
-define("EARTHWALL_DESC","By building a Earth Wall you can protect your village against the barbarian hordes of your enemies. The higher the wall's level, the higher the bonus given to your forces' defence.");
+define("EARTHWALL","Hradba");
+define("EARTHWALL_DESC","Postavením hradby môžete ochrániť svoju dedinu pred barbarskými hordami svojich nepriateľov. Čím vyššia je úroveň hradby, tým vyšší je bonus na obranu vašich síl.");
 
-define("PALISADE","Palisade");
-define("PALISADE_DESC","By building a Palisade you can protect your village against the barbarian hordes of your enemies. The higher the wall's level, the higher the bonus given to your forces' defence.");
+define("PALISADE","Palisáda");
+define("PALISADE_DESC","Postavením Palisády môžete chrániť svoju dedinu pred barbarskými hordami svojich nepriateľov. Čím vyššia je úroveň steny, tým vyšší je bonus na obranu vašich síl.");
 
-define("STONEMASON","Stonemason's Lodge");
+define("STONEMASON","Kamenárska chata");
 define("CURRENT_STABILITY","Current stability bonus:");
 define("STABILITY_LEVEL","Stability bonus at level");
 define("STONEMASON_DESC","The stonemason's lodge is an expert at cutting stone. The further the building is extended the higher the stability of the village's buildings.");
 
-define("BREWERY","Brewery");
-define("CURRENT_BONUS","Current bonus:");
-define("BONUS_LEVEL","Bonus at level");
-define("BREWERY_DESC","Tasty mead is brewed in the Brewery and later quaffed by the soldiers during the celebrations.");
+define("BREWERY","Pivovar");
+define("CURRENT_BONUS","Aktuálny bonus:");
+define("BONUS_LEVEL","Bonus na úrovni");
+define("BREWERY_DESC","V pivovare sa varí chutná medovina, ktorú neskôr vojaci čapujú počas osláv.");
 
-define("TRAPPER","Trapper");
-define("CURRENT_TRAPS","Currect maximum traps to train:");
-define("TRAPS_LEVEL","Maximum traps to train at level");
-define("TRAPS","Traps");
-define("TRAP","Trap");
-define("CURRENT_HAVE","Your currently have");
-define("WHICH_OCCUPIED","of which are occupied.");
-define("TRAINING_COMMENCE_TRAPPER","Training can commence when trapper is completed.");
-define("TRAPPER_DESC","The trapper protects your village with well hidden traps. This means that unwary enemies can be imprisoned and won't be able to harm your village anymore.");
+define("TRAPPER","Lapač");
+define("CURRENT_TRAPS","Opravte maximálny počet pascí na trénovanie:");
+define("TRAPS_LEVEL","Maximálny počet pascí na trénovanie na úrovni");
+define("TRAPS","Pasce");
+define("TRAP","Pasca");
+define("CURRENT_HAVE","Momentálne máte");
+define("WHICH_OCCUPIED","z toho sú obsadené.");
+define("TRAINING_COMMENCE_TRAPPER","Tréning môže začať, keď je trapper dokončený.");
+define("TRAPPER_DESC","Lapač chráni vašu dedinu dobre skrytými pascami. To znamená, že neopatrní nepriatelia môžu byť uväznení a už nebudú môcť ubližovať vašej dedine.");
 
-define("HEROSMANSION","Hero's Mansion");
-define("HERO_READY","Hero will be ready in ");
-define("NAME_CHANGED","Hero name has been changed");
-define("NOT_UNITS","Not available units");
-define("NOT","Not ");
+define("HEROSMANSION","Sídlo hrdinu");
+define("HERO_READY","Hrdina bude pripravená o ");
+define("NAME_CHANGED","Meno hrdinu bolo zmenené");
+define("NOT_UNITS","Nedostupné jednotky");
+define("NOT","Nie");
 define("TRAIN_HERO","Train New Hero");
-define("REVIVE","Revive");
-define("OASES","Oases");
-define("DELETE","Delete");
-define("RESOURCES","Resources");
-define("OFFENCE","Offence");
-define("DEFENCE","Defence");
-define("OFF_BONUS","Off-Bonus");
-define("DEF_BONUS","Def-Bonus");
-define("REGENERATION","Regeneration");
-define("DAY","Day");
-define("EXPERIENCE","Experience");
-define("YOU_CAN","You can ");
-define("RESET","reset");
-define("YOUR_POINT_UNTIL"," your points until you are level ");
-define("OR_LOWER"," or lower!");
-define("YOUR_HERO_HAS","Your hero has ");
-define("OF_HIT_POINTS","of his life points");
-define("ERROR_NAME_SHORT","Error: name too short");
-define("HEROSMANSION_DESC","In the Hero's mansion you can train your own hero and at level 10, 15 and 20 you can conquer oases with Hero in the immediate vicinity.");
+define("REVIVE","Oživte");
+define("OASES","Oázy");
+define("DELETE","Odstrániť");
+define("RESOURCES","Zdroje");
+define("OFFENCE","Útok");
+define("DEFENCE","Obrana");
+define("OFF_BONUS","Bonus útok");
+define("DEF_BONUS","Bonus obrana");
+define("REGENERATION","Regenerácia");
+define("DAY","Deň");
+define("EXPERIENCE","Skúsenosti");
+define("YOU_CAN","Môžete ");
+define("RESET","resetovať");
+define("YOUR_POINT_UNTIL"," vaše body, kým nedosiahnete úroveň ");
+define("OR_LOWER"," alebo nižšie!");
+define("YOUR_HERO_HAS","Váš hrdina má ");
+define("OF_HIT_POINTS","jeho životných bodov");
+define("ERROR_NAME_SHORT","Chyba: názov je príliš krátky");
+define("HEROSMANSION_DESC","V Hrdinovom sídle si môžete vycvičiť vlastného hrdinu a na úrovni 10, 15 a 20 môžete s Herom dobývať oázy v bezprostrednej blízkosti.");
 
 define("GREATWAREHOUSE","Great Warehouse");
 define("GREATWAREHOUSE_DESC","Wood, clay and iron are stored in the warehouse. The great warehouse offers you more space and keeps your goods drier and safer than the normal one.");
@@ -1124,7 +1125,7 @@ define("WORLD_WONDER_NAME","World Wonder name");
 define("WORLD_WONDER_NOTCHANGE_NAME","You can not change the name of the World Wonder after level 10");
 define("WORLD_WONDER_NAME_CHANGED","Name changed");
 
-define("HORSEDRINKING","Horse Drinking Trough");
+define("HORSEDRINKING","Koňský žľab");
 define("HORSEDRINKING_DESC","The horse drinking trough of the Romans decreases the training time of cavalry and the upkeep of these troops as well.");
 
 define("GREATWORKSHOP","Great Workshop");
@@ -1133,23 +1134,23 @@ define("GREATWORKSHOP_DESC","Siege engines like catapults and rams can be built 
 
 define("BUILDING_MAX_LEVEL_UNDER","Building max level under construction");
 define("BUILDING_BEING_DEMOLISHED","Building presently being demolished");
-define("COSTS_UPGRADING_LEVEL","Costs</b> for upgrading to level");
-define("WORKERS_ALREADY_WORK","The workers are already at work.");
+define("COSTS_UPGRADING_LEVEL","Cena</b> pre vylepšenie na úroveň");
+define("WORKERS_ALREADY_WORK","Robotníci sú už v práci.");
 define("CONSTRUCTING_MASTER_BUILDER","Constructing with master builder ");
-define("COSTS","Costs");
-define("GOLD","Gold");
-define("WORKERS_ALREADY_WORK_WAITING","The workers are already at work. (waiting loop)");
-define("ENOUGH_FOOD_EXPAND_CROPLAND","Not enough food. Expand cropland.");
+define("COSTS","Náklady");
+define("GOLD","Dukáty");
+define("WORKERS_ALREADY_WORK_WAITING","Robotníci sú už v práci. (čakacia slučka)");
+define("ENOUGH_FOOD_EXPAND_CROPLAND","Nedostatok jedla. Rozšírte ornú pôdu.");
 define("UPGRADE_WAREHOUSE","Upgrade Warehouse");
 define("UPGRADE_GRANARY","Upgrade Granary");
-define("YOUR_CROP_NEGATIVE","Your crop production is negative, you will never get the required resources.");
-define("UPGRADE_LEVEL","Upgrade to level ");
+define("YOUR_CROP_NEGATIVE","Vaša produkcia plodín je negatívna, nikdy nezískate požadované zdroje.");
+define("UPGRADE_LEVEL","Vylepšiť na úroveň ");
 define("WAITING","(waiting loop)");
 define("NEED_WWCONSTRUCTION_PLAN","Need WW construction plan");
 define("NEED_MORE_WWCONSTRUCTION_PLAN","Need more WW construction plan");
-define("CONSTRUCT_NEW_BUILDING","Construct new building");
-define("SHOWSOON_AVAILABLE_BUILDINGS","show soon available buildings");
-define("HIDESOON_AVAILABLE_BUILDINGS","hide soon available buildings");
+define("CONSTRUCT_NEW_BUILDING","Postaviť novú budovu");
+define("SHOWSOON_AVAILABLE_BUILDINGS","zobraziť čoskoro dostupné budovy");
+define("HIDESOON_AVAILABLE_BUILDINGS","skryť čoskoro dostupné budovy");
 
 //artefact
 define("ARCHITECTS_DESC","All buildings in the area of effect are stronger. This means that you will need more catapults to damage buildings protected by this artifacts powers.");
@@ -1230,70 +1231,67 @@ The construction plans are conquerable immediately when they appear to the serve
 There will be a countdown in game, showing the exact time of the release, 5 days prior to the launch. ");
 
 //WW Village Release Message
-define("WWVILLAGEMSG","<h1><b>Wonder of the World Villages</b></h1>
+define("WWVILLAGEMSG","<h1><b>Dediny divu sveta</b></h1>
 
-Countless days have passed since the first battles upon the walls of the cursed villages of the Dread Natars, many armies of both the free ones and the Natarian empire struggled and died before the walls of the many strongholds from which the Natars had once ruled all creation. Now with the dust settled and a relative calm having settled in, armies began to count their losses and collect their dead, the stench of combat still lingering in the night air, a smell of a slaughter unforgettable in its extent and brutality yet soon to be dwarfed by yet others. The largest armies of the free ones and the Dread Natars were marshalling for yet another renewed assault upon the coveted former strongholds of the Natarian Empire.
-Soon scouts arrived telling of a most awesome sight and a chilling reminder, a dread army of an unfathomable size had been spotted marshalling at the end of the world, the Natarian capital, a force so great and unstoppable that the dust from their march would choke off all light, a force so brutal and ruthless that it would crush all hope. The free people knew that they had to race now, race against time and the endless hordes of the Natarian Empire to raise a Wonder of the World to restore the world to peace and vanquish the Natarian threat.
-But to raise such a great Wonder would be no easy task, one would need construction plans created in the distant past, plans of such an arcane nature that even the very wisest of sages knew not their contents or locations.
-Tens of thousands of scouts roamed across all existence searching in vain for these mystical plans, looking in all places but the dreaded Natarian Capital, yet could not find them. Today however, they return bearing good news, they return baring the locations of the plans, hidden by the armies of the Natars inside secret strongholds constructed to be hidden from the eyes of man.
-Now begins the final stretch, when the greatest armies of the Free people and the Natars will clash across the world for the fate of all that lies under heaven. This is the war that will echo across the eons, this is your war, and here you shall etch your name across history, here you shall become legend.
-
+Od prvých bitiek na múroch prekliatych dedín strašných Natarov uplynulo nespočetné množstvo dní, mnohé armády slobodných aj Natarskej ríše bojovali a zomreli pred múrmi mnohých pevností, z ktorých kedysi Natari ovládali celé stvorenie. . Teraz, keď sa usadil prach a usadil sa relatívny pokoj, armády začali počítať svoje straty a zbierať svojich mŕtvych, pach boja stále pretrvávajúci v nočnom vzduchu, zápach zabíjania, ktorý je nezabudnuteľný vo svojom rozsahu a brutalite. zakrpatené ešte inými. Najväčšie armády slobodných a hrôzostrašných Natarov sa chystali na ďalší obnovený útok na vytúžené bývalé pevnosti Natarskej ríše.
+Čoskoro dorazili skauti a rozprávali o najúžasnejšom pohľade a mrazivej pripomienke, že na konci sveta, v hlavnom meste Natarov, bola spozorovaná hrozivá armáda nevyspytateľnej veľkosti, sila taká veľká a nezastaviteľná, že prach z ich pochodu by sa zadusil. preč všetko svetlo, sila tak brutálna a neľútostná, že by zničila všetku nádej. Slobodní ľudia vedeli, že teraz musia pretekať, pretekať s časom a nekonečnými hordami Natarského impéria, aby vzbudili Div sveta, aby nastolili mier vo svete a porazili natarskú hrozbu.
+Ale postaviť taký veľký div by nebola ľahká úloha, človek by potreboval stavebné plány vytvorené v dávnej minulosti, plány tak tajomnej povahy, že ani tí najmúdrejší z mudrcov nepoznali ich obsah ani umiestnenie.
+Desaťtisíce skautov sa túlali po celej existencii a márne hľadali tieto mystické plány, hľadali všade okrem obávaného hlavného mesta Natarov, no nemohli ich nájsť. Dnes sa však vracajú s dobrými správami, vracajú sa s odhalením umiestnení plánov, ukrytých armádami Natarov v tajných pevnostiach postavených tak, aby boli skryté pred očami človeka.
+Teraz sa začína posledný úsek, keď sa najväčšie armády Slobodných ľudí a Natarov stretnú po celom svete o osud všetkého, čo leží pod nebom. Toto je vojna, ktorá sa bude ozývať naprieč eónmi, toto je vaša vojna a tu vyryjete svoje meno do histórie, tu sa stanete legendou.
 <img src=\"img/x.gif\" class=\"WWVillagesAnnouncement\" title=\"".WWVILLAGE."\" alt=\"".WWVILLAGE."\">
 
-To conquer one, the following things must happen:
+Aby ste jednu dobyli, musia sa stať tieto veci:
 
-1. You must attack the village (NO Raid!)
-2. WIN the Attack
-3. Destroy the RESIDENCE
-4. You must decrease the loyalty to 0 with : SENATORS , CHIEF , CHIEFTAIN
-5. You must have enough culture points to conquer the village
+1. Musíte zaútočiť na dedinu (NIE nájazd!)
+2. VYHRAJ Útok
+3. Zničte Bydlisko
+4. Musíte znížiť lojalitu na 0 pomocou : SENÁTORI , Náčelník , Náčelník
+5. Na dobytie dediny musíte mať dostatok kultúrnych bodov
 
-If not, the next attack on that village, winning with a SENATORS , CHIEF , CHIEFTAIN and empty slots in RESIDENCE/PALACE will take the village.
+Ak nie, ďalší útok na túto dedinu, výhra so SENÁTORMI, NÁČELNÍKOM, NÁČELNÍKOM a prázdnymi miestami v RESIDENCE/PALACE, obsadí dedinu.
 
-To build a WW, you must own a plan yourself (you = the WW village owner) from lvl 0 to 50, from 51 to 100 you need an additional plan in your alliance! Two plans in the WW village account would not work!
+Ak chcete postaviť WW, musíte vlastniť plán (vy = vlastník dediny WW) od lvl 0 do 50, od 51 do 100 potrebujete dodatočný plán vo vašej aliancii! Dva plány na účte dediny WW by nefungovali!
 
-The construction plans are conquerable immediately when they appear to the server. 
+Stavebné plány sú dobyteľné okamžite, keď sa objavia na serveri. 
 
-There will be a countdown in game, showing the exact time of the release, ".(5 / SPEED)." days prior to the launch. ");
+V hre bude odpočítavanie, ktoré ukazuje presný čas vydania, ".(5 / SPEED)." dní pred spustením. ");
 
 //Building Plans
-define("PLAN","Ancient Construction Plan");
-define("PLANVILLAGE","WW Buildingplan");
-define("PLAN_DESC","With this ancient construction plan you will able to build World Wonder to level 50. to build further, your alliance must hold at least two plans.");
-define("PLAN_INFO","<h1><b>World Wonder Construction Plans</b></h1>
+define("PLAN","Plán starovekej výstavby");
+define("PLANVILLAGE","WW Stavebný plán");
+define("PLAN_DESC","S týmto prastarým stavebným plánom budete môcť postaviť svetový zázrak na úroveň 50. Ak chcete stavať ďalej, vaša aliancia musí mať aspoň dva plány.");
+define("PLAN_INFO","<h1><b>Plány výstavby divu sveta</b></h1>
 
 
-Many moons ago the tribes of Travian were surprised by the unforeseen return of the Natars. This tribe from immemorial times surpassing all in wisdom, might and glory was about to trouble the free ones again. Thus they put all their efforts in preparing a last war against the Natars and vanquishing them forever. Many thought about the so-called 'Wonders of the World', a construction of many legends, as the only solution. It was told that it would render anyone invincible once completed. Ultimately making the constructors the rulers and conquerors of all known Travian. 
+Pred mnohými mesiacmi boli kmene Travianov prekvapené nepredvídaným návratom Natarov. Tento kmeň od nepamäti prevyšujúci všetko múdrosťou, silou a slávou sa chystal opäť znepokojiť slobodných. Vynaložili tak všetko svoje úsilie na prípravu poslednej vojny proti Natarom a ich porazenie navždy. Mnohí považovali za jediné riešenie takzvané „divy sveta“, skonštruované z mnohých legiend. Bolo povedané, že po dokončení to urobí každého neporaziteľným. Nakoniec sa z konštruktérov stali vládcovia a dobyvatelia všetkých známych Travianov.
 
-However, it was also told that one would need construction plans to construct such a building. Due to this fact, the architects devised cunning plans about how to store these safely. After a while, one could see temple-like buildings in many a city and metropolis - the Treasure Chambers (Treasuries). 
+Bolo však tiež povedané, že na výstavbu takejto budovy budú potrebné stavebné plány. Vďaka tomu architekti vymysleli rafinované plány, ako ich bezpečne uložiť. Po chvíli bolo možné v mnohých mestách a metropolách vidieť chrámové budovy - Treasure Chambers (Pokladnice).
 
-Sadly, no one - not even the wise and well versed - knew where to find these construction plans. The harder people tried to locate them, the more it seemed as if they where only legends. 
+Žiaľ, nikto – ani múdri a zbehlí – nevedeli, kde tieto stavebné plány nájsť. Čím viac sa ich ľudia snažili nájsť, tým viac sa zdalo, že sú tam len legendy.
 
-Today, however, this last secret will be revealed. Deprivations and endeavors of the past will not have been in vain, as today scouts of several tribes have successfully obtained the whereabouts of the construction plans. Well guarded by the Natars, they lie hidden in several oases to be found all over Travian. Only the most valiant heroes will be able to secure such a plan and bring it home safely so that the construction can begin. 
+Dnes však bude toto posledné tajomstvo odhalené. Deprivácie a snahy z minulosti nebudú márne, pretože dnes skauti niekoľkých kmeňov úspešne získali miesto, kde sa nachádzali stavebné plány. Dobre strážené Natarmi, ležia ukryté v niekoľkých oázach, ktoré možno nájsť po celom Traviane. Len tým najudatnejším hrdinom sa podarí takýto plán zabezpečiť a bezpečne doniesť domov, aby sa mohla začať stavba.
 
-In the end, we will see whether the free tribes of Travian can once again outwit the Natars and vanquish them once and for all. Do not be so foolish as to assume that the Natars will leave without a fight, though!
-
+Nakoniec uvidíme, či slobodné kmene Travianov opäť dokážu prekabátiť Natarov a raz a navždy ich poraziť. Nebuďte však takí hlúpi, aby ste predpokladali, že Natari odídu bez boja!
 <img src=\"img/x.gif\" class=\"WWBuildingPlansAnnouncement\" title=\"".PLAN."\" alt=\"".PLAN."\">
 
-To steal a set of Construction Plans from the Natars, the following things must happen:
-- You must Attack the village (NOT Raid!)
-- You must WIN the Attack
-- You must DESTROY the Treasure Chamber (Treasury)
-- Your Hero MUST be in that attack, as he is the only one who may carry the Construction Plans
-- An empty level 10 Treasure Chamber (Treasury) MUST be in the village where that attack came from
-NOTE: If the above criteria is not met during the attack, the next attack on that village which does meet the above criteria will take the Construction Plans.
+Ak chcete ukradnúť súbor stavebných plánov od Natarov, musia sa stať tieto veci:
+- Musíte zaútočiť na dedinu (NIE nájazd!)
+- Útok musíte VYHRAŤ
+- Musíte ZNIČIŤ pokladnicu (Pokladnicu)
+- Váš hrdina MUSÍ byť v tomto útoku, pretože je jediný, kto môže niesť Stavebné plány
+- Prázdna Treasure Chamber (Pokladnica) úrovne 10 MUSÍ byť v dedine, odkiaľ tento útok prišiel.
+POZNÁMKA: Ak počas útoku nie sú splnené vyššie uvedené kritériá, ďalší útok na dedinu, ktorá spĺňa vyššie uvedené kritériá, prevezme Stavebné plány.
 
 
+Na vybudovanie pokladnice (pokladnice) budete potrebovať hlavnú budovu úrovne 10 a dedina NESMIE obsahovať div sveta.
 
-To build a Treasure Chamber (Treasury), you will need a Main Building level 10 and the village MUST NOT be  contain a World Wonder.
-
-To build a World Wonder, you must own the Construction Plans yourself (you = the World Wonder Village Owner) from level 0 to 50, and then from level 51 to 100 you will need an additional set of Construction Plans in your Alliance! Two sets of Construction Plans in the World Wonder Village Account will not work!");
+Ak chcete postaviť div sveta, musíte sami vlastniť Stavebné plány (vy = Vlastník World Wonder Village) od úrovne 0 do 50 a potom od úrovne 51 do 100 budete potrebovať ďalšiu sadu stavebných plánov vo vašej aliancii! Dve sady stavebných plánov na účte World Wonder Village nebudú fungovať!");
 
 //Admin setting - Admin/Templates/config.tpl & editServerSet.tpl
 define("EDIT_BACK","Back");
 define("SERV_CONFIG","Server Configuration");
-define("SERV_SETT","Server Settings");
-define("EDIT_SERV_SETT","Edit Server Settings");
+define("SERV_SETT","Nastavenia servera");
+define("EDIT_SERV_SETT","Upravte nastavenia servera");
 define("SERV_VARIABLE","Variable");
 define("SERV_VALUE","Value");
 define("CONF_SERV_NAME","Server Name");
@@ -1478,39 +1476,40 @@ define("CONF_ADMIN_RAIDATT_TOOLTIP","Enable (True) or disable (False) the abilit
 |--------------------------------------------------------------------------
 */
 
-	   $lang['index'][0][1] = "Welcome to " . SERVER_NAME . "";
-	   $lang['index'][0][2] = "Manual";
-	   $lang['index'][0][3] = "Play now, for free!";
-	   $lang['index'][0][4] = "What is " . SERVER_NAME . "";
-	   $lang['index'][0][5] = "" . SERVER_NAME . " is a <b>browser game</b> featuring an engaging ancient world with thousands of other real players.</p><p>It`s <strong>free to play</strong> and requires <strong>no downloads</strong>.";
-	   $lang['index'][0][6] = "Click here to play " . SERVER_NAME . "";
-	   $lang['index'][0][7] = "Total players";
-	   $lang['index'][0][8] = "Players active";
-	   $lang['index'][0][9] = "Players online";
-	   $lang['index'][0][10] = "About the game";
-	   $lang['index'][0][11] = "You will begin as the chief of a tiny village and will embark on an exciting quest.";
-	   $lang['index'][0][12] = "Build up villages, wage wars or establish trade routes with your neighbours.";
-	   $lang['index'][0][13] = "Play with and against thousands of other real players and conquer the the world of Travian.";
-	   $lang['index'][0][14] = "News";
+	   $lang['index'][0][1] = "Vitajte na " . SERVER_NAME . "";
+	   $lang['index'][0][2] = "Manuál";
+	   $lang['index'][0][3] = "Hrajte teraz zadarmo!";
+	   $lang['index'][0][4] = "Čo je " . SERVER_NAME . "";
+	   $lang['index'][0][5] = "" . SERVER_NAME . " je <b>prehliadačová hra</b> s pútavým starovekým svetom s tisíckami ďalších skutočných hráčov.</p><p>Hra je <strong>zadarmo</strong> a nevyžaduje žiadne <strong>sťahovanie</strong>.";
+	   $lang['index'][0][6] = "Ak chcete hrať " . SERVER_NAME . ", kliknite sem ";
+	   $lang['index'][0][7] = "Celkový počet hráčov";
+	   $lang['index'][0][8] = "Aktívni hráči";
+	   $lang['index'][0][9] = "Online hráči";
+	   $lang['index'][0][10] = "O hre";
+	   $lang['index'][0][11] = "Začnete ako náčelník malej dediny a vydáte sa na vzrušujúcu výpravu.";
+	   $lang['index'][0][12] = "Vybudujte dediny, veďte vojny alebo vytvorte obchodné cesty so svojimi susedmi.";
+	   $lang['index'][0][13] = "Hrajte s tisíckami ďalších skutočných hráčov a proti nim a dobyjte svet Universu.";
+	   $lang['index'][0][14] = "Novinky";
 	   $lang['index'][0][15] = "FAQ";
-	   $lang['index'][0][16] = "Screenshots";
-	   $lang['forum'] = "Forum";
-	   $lang['register'] = "Register";
-	   $lang['login'] = "Login";
-	   $lang['screenshots']['title1']="Village";
-	   $lang['screenshots']['desc1']="Village building";
-           $lang['screenshots']['title2']="Resource";
-           $lang['screenshots']['desc2']="Village resource is wood, clay, iron and crop";
-           $lang['screenshots']['title3']="Map";
-           $lang['screenshots']['desc3']="Location your village in map";
-           $lang['screenshots']['title4']="Contruct Building";
-           $lang['screenshots']['desc4']="How to contruct building or resource level";
-           $lang['screenshots']['title5']="Report";
-           $lang['screenshots']['desc5']="Your attack report";
-           $lang['screenshots']['title6']="Statistics";
-           $lang['screenshots']['desc6']="View your ranking in statistics";
-           $lang['screenshots']['title7']="Weapons or dough";
-           $lang['screenshots']['desc7']="You can choose to play as military or economy";
+	   $lang['index'][0][16] = "Snímky obrazovky";
+$lang['forum'] = "Fórum";
+  $lang['register'] = "Registrovať";
+  $lang['login'] = "Prihlásenie";
+  $lang['screenshots']['title1']="Dedina";
+  $lang['screenshots']['desc1']="Budova dediny";
+ $lang['screenshots']['title2']="Zdroj";
+ $lang['screenshots']['desc2']="Dedinským zdrojom je drevo, hlina, železo a úroda";
+ $lang['screenshots']['title3']="Mapa";
+ $lang['screenshots']['desc3']="Umiestnenie vašej dediny na mape";
+ $lang['screenshots']['title4']="Budova stavby";
+ $lang['screenshots']['desc4']="Ako postaviť budovu alebo úroveň zdrojov";
+ $lang['screenshots']['title5']="Správa";
+ $lang['screenshots']['desc5']="Vaša správa o útoku";
+ $lang['screenshots']['title6']="Štatistiky";
+ $lang['screenshots']['desc6']="Zobraziť hodnotenie v štatistikách";
+ $lang['screenshots']['title7']="Zbrane alebo cesto";
+ $lang['screenshots']['desc7']="Môžete si vybrať, či budete hrať za armádu alebo ekonomiku";
 
 
 ?>
+
